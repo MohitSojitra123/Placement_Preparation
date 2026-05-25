@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="ol123" style="text-decoration: none;">
+        <li><img src='./asserts/as1.png' width="300px"></li>
+        <li><img src='./asserts/as2.png' width="300px"></li>
+        <li><img src='./asserts/as3.png' width="300px"></li>
+        <li><img src='./asserts/as4.png' width="300px"></li>
+        <li><img src="./asserts/as5.png" width="300px"></li>
+    </ol>
+</body>
+<script>
+    
+    let ol123=document.querySelectorAll('ol li');
+    console.log(ol123);
+
+    ol123.forEach((abc)=>{
+    abc.addEventListener('click',(xyz)=>{
+    xyz.target.remove();
+    })
+    });
+
+</script>
+</html>

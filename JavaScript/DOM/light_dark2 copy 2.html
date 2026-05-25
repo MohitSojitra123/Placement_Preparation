@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .light{
+      background-color: white;
+      color: black;
+   }
+
+   .dark{
+     background-color:black;
+     color:white ;
+   }
+
+</style>
+<body>
+    <button id="mod_change">Click Me !</button>
+    <p><h1>Color Change Mode.....</h1></p>
+</body>
+<script>
+    let mode=document.querySelector("#mod_change");
+
+    let test="light";
+    mode.addEventListener("click",function(){
+    if(test == "light"){
+     document.body.classList.add("light");  //class add
+     document.body.classList.remove("dark");  //remove class
+     test="dark";
+    }else{
+     document.body.classList.add("dark");  //add class
+     document.body.classList.remove("light"); //remove class
+     test="light";
+    }
+});
+</script>
+</html>

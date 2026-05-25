@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cl1">
+    <button>One</button>
+    <button>Two</button>
+    <button>Three</button>
+    </div>
+</body>
+<script>
+   let value_1=document.querySelectorAll(".cl1 button");
+
+   value_1.forEach(function(button1){
+      button1.addEventListener('click',(e)=>{
+           console.log(e);
+           e.currentTarget.style.backgroundColor="red";
+           e.currentTarget.style.color="white";
+      })
+   })
+</script>
+</html>

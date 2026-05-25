@@ -1,0 +1,419 @@
+
+
+
+ARRAYLIST QUESTIONS (1–50)
+
+
+Trapping Rain Water.
+Container With Most Water.
+Spiral matrix traversal.
+Advanced Level
+Merge overlapping intervals.
+Insert interval problem.
+Game of Life.
+Median of two sorted arrays.
+Longest increasing subsequence.
+Sliding window maximum.
+Top k frequent elements.
+Kth largest element.
+Merge k sorted arrays.
+Find inversion count.
+Count smaller numbers after self.
+Maximum product subarray.
+Split array largest sum.
+Minimum jumps to reach end.
+Candy distribution problem.
+
+
+
+LINKEDLIST QUESTIONS (51–100)
+Basic Level
+Create singly linked list.
+Insert node at beginning.
+Insert node at end.
+Insert node at specific position.
+Delete first node.
+Delete last node.
+Delete node by value.
+Search element in linked list.
+Count total nodes.
+Reverse linked list.
+Find middle node.
+Print linked list in reverse.
+Detect loop in linked list.
+Find length of loop.
+Remove duplicates from sorted linked list.
+Intermediate Level
+Merge two sorted linked lists.
+Check palindrome linked list.
+Remove nth node from end.
+Find intersection point of two lists.
+Segregate even and odd nodes.
+Sort linked list.
+Rotate linked list by k.
+Flatten linked list.
+Clone linked list with random pointer.
+Reverse nodes in k-group.
+Add two numbers represented by linked list.
+Subtract two linked list numbers.
+Multiply linked list numbers.
+Remove loop from linked list.
+Delete nodes having greater value on right.
+Advanced Level
+LRU Cache implementation.
+LFU Cache implementation.
+Design browser history.
+Implement music playlist manager.
+Implement text editor undo-redo.
+Merge k sorted linked lists.
+Sort linked list using merge sort.
+Quick sort on linked list.
+Reverse alternate k nodes.
+Circular linked list split problem.
+Convert binary linked list to integer.
+Detect and remove cycle.
+Find first circular node.
+Clone multilevel linked list.
+Design train reservation system.
+Design memory allocator.
+Implement deque using linked list.
+Polynomial addition using linked list.
+Sparse matrix using linked list.
+Skip list implementation.
+
+
+
+HASHSET QUESTIONS (101–140)
+
+
+Contains nearby duplicate.
+Sudoku validation.
+Find duplicate rows in matrix.
+Distinct island problem.
+Word break problem.
+Implement spell checker.
+Unique username generator.
+Detect duplicate transactions.
+Find uncommon words.
+Check sentence similarity.
+Keyboard row words.
+Find repeated DNA sequences.
+Group shifted strings.
+Longest substring without repeat.
+Top k frequent words.
+Subdomain visit count.
+Find duplicate files.
+Unique email addresses.
+Find all anagrams in string.
+Smallest missing positive.
+Intersection of linked lists using set.
+Detect cycle in graph.
+Course schedule problem.
+Word ladder problem.
+Alien dictionary validation.
+Implement distributed cache keys.
+
+
+
+HASHMAP QUESTIONS (141–200)
+Basic Level
+Frequency count of characters.
+Frequency count of words.
+Count occurrences of numbers.
+Find first non-repeating character.
+Find highest frequency element.
+Two Sum problem.
+Group anagrams.
+Check isomorphic strings.
+Word pattern matching.
+Employee salary management.
+Student marks system.
+Phonebook application.
+Inventory management system.
+Voting system.
+Login authentication system.
+Intermediate Level
+Longest substring without repeating characters.
+Subarray sum equals k.
+Count pairs with given sum.
+Count zero sum subarrays.
+Largest subarray with equal 0 and 1.
+Longest consecutive sequence.
+Find majority element.
+Top k frequent elements.
+Sort characters by frequency.
+Minimum window substring.
+Design URL shortener.
+Deep copy nested hashmap.
+LRU Cache using hashmap.
+LFU Cache using hashmap.
+Randomized set.
+Insert delete getRandom O(1).
+Time based key value store.
+Snapshot array.
+Design leaderboard.
+TinyURL encoder decoder.
+Advanced Level
+Distributed cache design.
+Social media feed system.
+Chat application backend.
+Search engine indexing.
+In-memory database.
+Consistent hashing problem.
+Autocomplete system.
+Real-time analytics counter.
+Sliding window median.
+Dynamic programming memoization.
+Trie + hashmap search engine.
+Graph adjacency map.
+Currency exchange graph.
+File system implementation.
+Design parking system.
+Banking transaction tracker.
+Fraud detection system.
+API rate limiter.
+DNS cache system.
+Recommendation engine.
+Online multiplayer ranking.
+Food delivery tracker.
+Ride sharing matching system.
+E-commerce product search.
+Microservice session storage.
+
+
+
+
+
+
+
+
+QUEUE QUESTIONS (201–240)
+Implement simple queue.
+Implement circular queue.
+Reverse queue.
+Generate binary numbers.
+Queue using stacks.
+Stack using queues.
+First non-repeating character in stream.
+Rotten oranges problem.
+Sliding window maximum.
+Moving average from data stream.
+Task scheduler.
+CPU scheduling simulation.
+Printer queue system.
+Call center system.
+Ticket booking queue.
+BFS traversal.
+Level order traversal.
+Zigzag tree traversal.
+Snake and ladder game.
+Flood fill algorithm.
+Number of islands BFS.
+Word ladder shortest path.
+Course schedule BFS.
+Circular tour petrol pump.
+Gas station problem.
+Recent counter.
+Hit counter design.
+Design browser tabs queue.
+Message queue system.
+Kafka-like event streaming.
+Multiplayer game matchmaking.
+Hospital patient management.
+Food order processing.
+Elevator scheduling system.
+Traffic signal system.
+Web server request handling.
+Printer spooler system.
+Producer consumer problem.
+Round robin scheduling.
+Async task processing.
+
+
+
+
+STACK QUESTIONS (241–300)
+Basic Level
+Implement stack using array.
+Implement stack using linked list.
+Reverse string using stack.
+Balanced parentheses.
+Valid brackets problem.
+Next greater element.
+Previous greater element.
+Stock span problem.
+Remove duplicate letters.
+Undo operation implementation.
+Browser back button.
+Min stack.
+Evaluate postfix expression.
+Evaluate prefix expression.
+Infix to postfix conversion.
+Intermediate Level
+Infix to prefix conversion.
+Postfix to infix conversion.
+Prefix to postfix conversion.
+Largest rectangle in histogram.
+Trapping Rain Water.
+Daily temperatures problem.
+Asteroid collision.
+Remove k digits.
+Decode string.
+Simplify path.
+Remove adjacent duplicates.
+Celebrity problem.
+Implement queue using stack.
+Recursive stack sorting.
+Reverse stack recursively.
+Delete middle element of stack.
+Monotonic stack problems.
+Online stock span.
+Basic calculator.
+Expression parsing.
+Advanced Level
+Maximal rectangle.
+Parse nested expressions.
+Arithmetic expression evaluator.
+Design text editor.
+Design IDE undo-redo engine.
+XML/HTML tag validator.
+Compiler syntax parser.
+Recursive function simulator.
+Tower of Hanoi iterative.
+Backtracking using stack.
+DFS graph traversal.
+Maze solver.
+Unix terminal command history.
+Browser forward-backward navigation.
+Docker container layer stack.
+Function call stack simulation.
+Memory stack allocator.
+Virtual machine execution stack.
+JSON parser.
+XML parser.
+Spreadsheet formula evaluator.
+Expression tree construction.
+Regex parser engine.
+AI chatbot conversation state stack.
+Operating system stack memory simulation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Java Collections Interview & Real-World Problems (1–100)
+1–15 : ArrayList (Basic → Intermediate)
+Create a student management system using Java Programming ArrayList.
+Store employee salaries in an ArrayList and find the highest salary.
+Remove duplicate mobile numbers from an ArrayList.
+Reverse an ArrayList without using another list.
+Find the second largest element in an ArrayList.
+Rotate elements of an ArrayList by k positions.
+Merge two product lists into one ArrayList.
+Find frequency of each word in an ArrayList<String>.
+Implement online shopping cart using ArrayList.
+Remove all even numbers from an ArrayList.
+Sort employees based on salary using custom comparator.
+Find all pairs whose sum equals target value.
+Detect whether an ArrayList contains palindrome numbers.
+Implement movie ticket booking seat system using ArrayList.
+Design a music playlist manager using ArrayList.
+16–30 : LinkedList (Basic → Intermediate)
+Create browser history navigation using LinkedList.
+Implement train compartment management system.
+Add and remove songs from playlist dynamically.
+Reverse a LinkedList manually.
+Find middle node of LinkedList.
+Detect loop/cycle in LinkedList.
+Merge two sorted LinkedList.
+Remove nth node from end.
+Implement undo-redo functionality using doubly linked list.
+Create recent search history feature.
+Implement LRU Cache using LinkedList + HashMap.
+Design metro station route navigation system.
+Clone a linked list with random pointers.
+Flatten multi-level linked list.
+Design text editor cursor movement system.
+31–45 : HashSet (Basic → Intermediate)
+Remove duplicate emails using HashSet.
+Find common friends between two users.
+Detect duplicate transaction IDs.
+Implement unique username registration system.
+Find union of two arrays using HashSet.
+Find intersection of two arrays using HashSet.
+Check whether two strings are anagrams using HashSet.
+Create unique hashtag tracking system.
+Find longest consecutive sequence in array.
+Implement spell checker dictionary.
+Detect duplicate words in paragraph.
+Design online voting system preventing duplicate votes.
+Store unique IP addresses visiting website.
+Create unique coupon code validation system.
+Find first repeated character in string.
+46–65 : HashMap (Intermediate → Advanced)
+Count frequency of characters in string.
+Count frequency of words in paragraph.
+Create phonebook application using HashMap.
+Find first non-repeating character.
+Group anagrams together using HashMap.
+Two Sum problem using HashMap.
+Find duplicate elements with occurrence count.
+Implement student result management system.
+Design inventory management system.
+Create bank account balance tracking system.
+Implement login authentication system.
+Find longest substring without repeating characters.
+Design URL shortener using HashMap.
+Implement cache memory system.
+Create e-commerce product catalog search.
+Detect majority element in array.
+Clone deep nested HashMap.
+Design attendance management system.
+Implement LFU Cache using HashMap.
+Build mini database indexing system.
+66–80 : Queue (Basic → Advanced)
+Implement printer queue system.
+Design customer service token system.
+Simulate CPU task scheduling.
+Implement call center waiting queue.
+Reverse first k elements of queue.
+Generate binary numbers using queue.
+Implement circular queue.
+Design food delivery order processing system.
+Implement sliding window maximum problem.
+Design movie ticket waiting queue.
+Implement BFS traversal using queue.
+Simulate traffic signal management system.
+Create hospital patient management queue.
+Implement task scheduler with priorities.
+Design asynchronous message processing system.
+81–95 : Stack (Basic → Advanced)
+Implement browser back button using stack.
+Check balanced parentheses problem.
+Reverse a string using stack.
+Implement undo operation in editor.
+Evaluate postfix expression.
+Convert infix to postfix expression.
+Implement Min Stack.
+Find next greater element.
+Solve stock span problem.
+Implement function call stack simulation.
+Design text editor undo-redo system.
+Implement expression calculator using stack.
+Largest rectangle in histogram.
+Trapping Rain Water using stack.
+Design recursive file directory traversal.
+96–100 : Mixed Collection Advanced Company Questions
+Design complete social media feed system using ArrayList + HashMap + Queue.
+Build real-time chat application using Queue + HashMap.
+Design ride booking system like Uber using collections.
+Implement search engine keyword ranking system using HashMap + PriorityQueue.
+Build mini e-commerce system like Amazon using all collections together.

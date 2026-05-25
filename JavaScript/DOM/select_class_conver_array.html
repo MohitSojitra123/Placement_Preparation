@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="c_name">heading => 1</h1>
+    <h1 class="c_name">heading => 2</h1>
+    <h1 class="c_name">heading => 3</h1>
+    <h1 class="c_name">heading => 4</h1>
+    <h1 class="c_name">heading => 5</h1>
+</body>
+<script>
+   let c_name=document.getElementsByClassName("c_name");
+
+    
+//    for(let i=0; i<c_name.length; i++){
+//     c_name[i].style.color="blue";
+//     c_name[i].style.display="inline-";
+//    }
+
+   c_name=Array.from(c_name);  //convert array next array are used to perform task in foreach loop 
+
+   console.log(c_name);
+   console.log(Array.isArray(c_name));
+
+   c_name.forEach(function(abc){
+    abc.style.backgroundColor="red";
+    abc.style.display="inline-block";    
+   })
+
+  
+</script>
+</html>

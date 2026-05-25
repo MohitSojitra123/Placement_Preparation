@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="first">New Window...</button>
+    <br>
+    <br>
+    <button id="second">New Window...</button>
+</body>
+<script>
+  
+     let value_1=document.getElementById("first");
+      value_1.addEventListener("click",function(){
+        window.open();    //open(url,name,features) => open("https://www.google.com","mohit","height=500px,width=500px");
+      })
+
+
+      let value_2=document.getElementById("second");
+      value_2.addEventListener("click",function(){
+        window.open("https://www.google.com","mohit","width=500px,height=500px");
+      });
+
+</script>
+</html>

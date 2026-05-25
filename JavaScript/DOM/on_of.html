@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #on_off{
+        background-color: yellow;
+        border: none;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+    }
+
+    #off_on{
+        background-color:red;
+        border: none;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+    }
+
+
+</style>
+<body>
+    <button id="on_off">On</button>
+</body>
+<script>
+    const on_off=document.getElementById("on_off");
+     let val=0;
+
+     on_off.addEventListener('click',function(){
+        if(val === 0){
+            on_off.innerText="Off";
+            on_off.setAttribute('id',"off_on");
+            val = 1;
+        }else{
+            on_off.innerText="On";
+            on_off.setAttribute('id','on_off');
+            val = 0;
+        }
+     })
+    
+</script>
+</html>

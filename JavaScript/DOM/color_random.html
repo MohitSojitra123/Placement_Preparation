@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="qwe">RGB Color (255,255,255)</h1>
+    <button id="btn">Color Changer...</button>
+</body>
+<script>
+    let value_1=document.getElementById('btn');
+    let text=document.getElementById('qwe');
+    let body=document.body;
+
+
+       function gen_color(){
+           let red=Math.floor(Math.random() * 256);
+           let blue=Math.floor(Math.random() * 256);
+           let green=Math.floor(Math.random() * 256);
+           return `rgb(${red},${blue},${green})`;
+       }
+
+
+    value_1.addEventListener('click',function(){
+         rgb_color=gen_color();
+         console.log(rgb_color);
+         body.style.backgroundColor=rgb_color;
+         text.innerHTML=rgb_color;
+    })
+
+</script>
+</html>

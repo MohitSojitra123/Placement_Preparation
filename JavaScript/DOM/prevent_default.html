@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- change original state... -->
+    
+<a href="https://www.google.com" id="first">Click Me !</a>
+
+</body>
+<script>
+     let value_1=document.getElementById("first");
+     value_1.addEventListener("click", function(abc){
+       console.log("Link Is Clicked...");  
+       abc.preventDefault();
+     })
+</script>
+</html>

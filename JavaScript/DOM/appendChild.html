@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="menu">
+        <li>A 1</li>
+        <li>A 2</li>
+        <li>A 3</li>
+        <li>A 4</li>
+        <li>A 5</li>
+        <li>A 6</li>
+    </ul>
+
+</body>
+<script>
+    
+    let menu=document.getElementById("menu");
+    
+   let list_item=document.createElement("li")
+    list_item.innerHTML = "A 7";
+
+    menu.appendChild(list_item)
+
+    console.log(menu.textContent)
+
+
+</script>
+</html>

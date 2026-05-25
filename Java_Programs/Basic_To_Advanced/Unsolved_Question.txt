@@ -1,0 +1,49 @@
+
+
+// 🔹 23. String Advanced Programs
+// Find all substrings of a string
+// Find longest palindrome substring
+// Find longest common prefix in array of strings
+// Find longest common subsequence
+// Implement KMP string search algorithm
+// Implement Rabin-Karp string search
+// 🔹 28. Advanced String & Text Processing
+// Replace substring in a string
+// Capitalize first letter of each word
+// Find longest repeated substring
+// Implement string compression (Run Length Encoding)
+// Implement string decompression (decode RLE)
+// Implement Boyer-Moore string search algorithm
+// 🔹 29. Recursion & Backtracking
+// Generate all permutations of array
+// Generate all subsets of array (Power Set)
+// Solve Sudoku puzzle using backtracking
+// Word Search problem (matrix + backtracking)
+// Rat in a Maze problem
+// Knight’s Tour problem
+// Generate balanced parentheses
+// Print all possible binary strings of length N
+// Find all possible coin change combinations
+// Solve crossword puzzle fill using backtracking
+// 🔹 34. Advanced Arrays Problems
+// Maximum Subarray Sum (Kadane’s Algorithm)
+// Maximum Product Subarray
+// Trapping Rainwater Problem
+// Stock Buy and Sell to Maximize Profit
+// Find Peak Element in Array
+// Find Majority Element (Boyer-Moore Voting)
+// Sliding Window Maximum
+// Find Subarray with Given Sum
+// Count Inversions using Merge Sort
+// Maximum Circular Subarray Sumq
+// 🔹 Searching & Sorting Applications
+// Find kth smallest element in array
+// Find kth largest element in array
+// Find majority element in array
+// Find missing element using XOR
+// Find first repeating element in array
+// Find first non-repeating element in array
+// Count inversions in array
+// Merge two sorted arrays
+// Find median of two sorted arrays
+// Implement binary search tree insertion & traversal

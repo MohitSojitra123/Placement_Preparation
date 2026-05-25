@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #abc{
+        width: 220px;
+        height: 200px;
+        background-color: antiquewhite;
+        border: 1px solid black;
+    }
+</style>
+<body>
+
+    <div id="abc">
+       <p>That Is Create Element...</p>
+    </div> 
+    <p>This Is Paregraph....</p>
+
+</body>
+<script>
+    let btn=document.createElement("Button");
+    btn.innerText="Click Me !";
+    console.log(btn);
+
+    let value_1=document.getElementById("abc");
+    //  value_1.append(btn)  //show button in last
+    // value_1.prepend(btn);  //show button in frist
+    //   value_1.before(btn);  //add button in div before
+    //   value_1.after(btn); //add button in div after
+
+
+    //Create Tag....
+
+    let heading=document.createElement("h1");
+    heading.innerHTML="<i>That Is Heading....</i>";
+    document.querySelector("body").prepend(heading);  //body is select and body add heading tag...
+
+
+    //remove 
+
+    let rm=document.getElementsByTagName("p");
+    rm[1].remove(); 
+
+</script>
+</html>

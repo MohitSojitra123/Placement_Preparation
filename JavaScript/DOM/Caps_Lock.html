@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="abc"></h1>
+</body>
+<script>
+ 
+    // window.addEventListener('keyup',event1 =>{
+    //    var check=(event1.getModifierState('NumLock'))
+       
+    //    console.log(check)
+    // //    console.log(event1)
+
+    //  if(check){
+    //     document.getElementById('abc').innerText="NumLock Is On...";
+    //  }
+    //  else{
+    //     document.getElementById('abc').innerText=" "
+    //  }
+    // })
+
+    window.addEventListener('keyup', (val1)=>{
+         document.getElementById('abc').innerHTML+=val1.key;
+        // console.log(val1);
+    })
+
+
+
+
+</script>
+</html>

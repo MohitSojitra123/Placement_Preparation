@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input123">
+
+    <button id="btn">Click Me !</button>
+</body>
+<script>
+     let input123=document.getElementById("input123");
+     let btn=document.getElementById('btn');
+
+     console.log(input123);
+
+     btn.addEventListener('click',function(){
+        console.log(input123.value);
+
+        var name='keval';
+
+        try{
+        if(input123.value == 'keval'){
+         throw "Not Define error";
+        }else{
+        throw "Error Is Occured...";
+        }
+    }catch(abc){
+        console.log(abc);
+    }
+     })
+
+</script>
+</html>

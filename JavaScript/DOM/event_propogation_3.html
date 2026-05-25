@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #parent{
+       background-color: antiquewhite;
+       width: 400px;
+       height: 400px;
+    }
+
+    #chiled{
+       background-color: aqua;
+       width: 150px;
+       height: 150px;   
+     }
+
+     #btn{
+        width: 150px;
+        height: 20px;
+     }
+</style>
+<body>
+    <div id="parent">
+        <div id="chiled">
+             <button id="btn">Click Me !</button>
+        </div>
+    </div>
+</body>
+<script>
+    //By Default in Event Bubbling..
+
+    // Original State Using event.stopPropogation();
+
+    let value_1=document.getElementById("parent");
+    let value_2=document.getElementById("chiled");
+    let value_3=document.getElementById("btn");
+
+    value_1.addEventListener('click',function(){
+        console.log("Parent...")
+         alert("That Is Parent...");
+         event.stopPropagation();
+    })
+
+    value_2.addEventListener('click',function(){
+           console.log("Chiled...");
+           alert("That Is Chiled");
+           event.stopPropagation();
+    })
+
+value_3.addEventListener('click',function(){
+       console.log("Buttom...");
+       alert("That Is Button....");
+       event.stopPropagation();
+   })
+
+
+</script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol 
+    id="ol_list">
+        <li>1</li>
+        <li>2</li>
+    </ol>
+</body>
+
+<script>
+
+    function add_element(name_of_element){
+       
+        // Create Element
+        let create=document.createElement('li');
+        create.innerText=name_of_element
+
+
+        // Add In List
+
+        let ol_list=document.getElementById('ol_list')
+        ol_list.appendChild(create)
+    }
+
+    add_element(3)
+    add_element(4)
+    add_element(5)
+    add_element(6)
+    add_element(7)
+  
+</script>
+
+</html>

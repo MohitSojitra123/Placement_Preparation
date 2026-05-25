@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r1{
+    width: 120px;
+    border: 2px solid red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+<body>
+  
+    <div class="box1">
+     
+        <div class="row">
+              <div id="id1"  class="r1"></div>
+              <div id="id2"  class="r1"></div>
+              <div id="id3"  class="r1"></div>
+              <div id="id4"  class="r1"></div>
+              <div id="id5"  class="r1"></div>
+        </div>
+        <div class="row">      
+              <div id="id6"  class="r1"></div>
+              <div id="id7"  class="r1"></div>
+              <div id="id8"  class="r1"></div>
+              <div id="id9"  class="r1"></div>
+              <div id="id10"  class="r1"></div>
+    </div>
+
+    <br>
+    <button id="btn">
+        Change
+    </button>
+     
+</body>
+
+<script>
+let btn=document.getElementById("btn");
+let id1=document.getElementById("id1");
+let id2=document.getElementById("id2");
+let id3=document.getElementById("id3");
+let id4=document.getElementById("id4");
+let id5=document.getElementById("id5");
+let id6=document.getElementById("id6");
+let id7=document.getElementById("id7");
+let id8=document.getElementById("id8");
+let id9=document.getElementById("id9");
+let id10=document.getElementById("id10");
+
+let r1=document.querySelectorAll('.r1');
+
+var color1 , color2 , color3 , color4 , color5 , color6 , color7 , color8 , color9 , color10 
+
+btn.addEventListener('click',function(){
+
+    for(i =0; i<10; i++){
+        r1[i].textContent="";
+    }
+
+    let r=Math.floor(Math.random()*256)
+    let g=Math.floor(Math.random()*256)
+    let b=Math.floor(Math.random()*256)
+    
+    
+    
+     color1=`rgb(${r},${r},${r})`
+     color2=`rgb(${g},${g},${g})`
+     color3=`rgb(${b},${b},${b})`
+     color4=`rgb(${r},${r},${b})`
+     color5=`rgb(${b},${b},${r})`
+     color6=`rgb(${g},${g},${r})`
+     color7=`rgb(${r},${b},${g})`
+     color8=`rgb(${b},${g},${r})`
+     color9=`rgb(${g},${r},${b})`
+     color10=`rgb(${r},${g},${b})`
+    
+     
+     id1.style.background=color1;
+     id2.style.background=color2;
+     id3.style.background=color3;
+     id4.style.background=color4;
+     id5.style.background=color5;
+     id6.style.background=color6;
+     id7.style.background=color7;
+     id8.style.background=color8;
+     id9.style.background=color9;
+     id10.style.background=color10;
+     
+    })
+
+   
+
+r1[0].addEventListener('click',function(){
+    r1[0].textContent=color1
+})
+r1[1].addEventListener('click',function(){
+    r1[1].textContent=color2
+})
+r1[2].addEventListener('click',function(){
+    r1[2].textContent=color3
+})
+r1[3].addEventListener('click',function(){
+    r1[3].textContent=color4
+})
+r1[4].addEventListener('click',function(){
+    r1[4].textContent=color5
+})
+r1[5].addEventListener('click',function(){
+    r1[5].textContent=color6
+})
+r1[6].addEventListener('click',function(){
+    r1[6].textContent=color7
+})
+r1[7].addEventListener('click',function(){
+    r1[7].textContent=color8
+})
+r1[8].addEventListener('click',function(){
+    r1[8].textContent=color9
+})
+r1[9].addEventListener('click',function(){
+    r1[9].textContent=color10
+})
+
+
+</script>
+
+</html>

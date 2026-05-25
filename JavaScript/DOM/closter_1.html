@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function fun_1(){
+        name="rohit";
+        function fun_2(){
+            console.log(name);
+        }
+        return fun_2;  //closter:= any function is return in another function that is closter.. the return function are return in all local memory and data.....in parent function.. 
+        console.log("Fun_1 Is Called...");
+    }
+
+    let show=fun_1();
+
+    console.log(show);  //Print Function Two
+    console.log(show());  
+
+
+</script>
+</html>

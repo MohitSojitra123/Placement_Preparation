@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="id123">
+        <h1>h => 1</h1>
+        <h1>h => 2</h1>
+        <h1>h => 3</h1>
+    </div>
+    <h1>h => 4</h1>
+</body>
+<script>
+     let value=document.querySelectorAll('#id123 h1');
+
+     console.log(value);
+
+    value[0].style.color="red";
+    value[1].style.color="blue";
+    value[2].style.color="yellow";
+    value[3].style.color="red";   
+
+</script>
+</html>

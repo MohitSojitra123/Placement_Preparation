@@ -1,0 +1,415 @@
+Count frequency using hashing (array method).
+
+Find largest sum of contiguous subarray (Kadane’s Algorithm).
+
+Find maximum product subarray.
+
+Rearrange array so that arr[i] = i if possible. ***
+
+What is a character?
+
+What is a string?
+
+Difference between character array and string
+
+How to declare a string in C / Java?
+
+How to take string input from user?
+
+Find length of a string without library function
+
+Count number of characters in a string
+
+Count vowels in a string
+
+Count consonants in a string
+
+Count digits in a string
+
+Count spaces in a sentence
+
+Convert lowercase to uppercase
+
+Convert uppercase to lowercase
+
+Check whether a character is alphabet or not
+
+Check whether a character is digit or not
+
+Print each character of string on new line
+
+Reverse a string
+
+Check if a string is palindrome
+
+Copy one string into another
+
+Compare two strings
+
+Concatenate two strings
+
+Count number of words in a sentence
+
+Replace space with underscore
+
+Remove spaces from a string
+
+Print ASCII value of characters
+
+Convert character to ASCII
+
+Convert ASCII to character
+
+Check whether string is empty
+
+Find first character of string
+
+Find last character of string
+
+Count frequency of a given character
+
+Replace a character in string
+
+Remove a character from string
+
+Check whether string contains a character
+
+Find index of a character
+
+Print string in reverse order
+
+Check whether string contains only alphabets
+
+Check whether string contains only digits
+
+Check whether string is alphanumeric
+
+Convert string to character array
+
+Convert character array to string
+
+Count uppercase letters
+
+Count lowercase letters
+
+Count special characters
+
+Read string with spaces
+
+Find middle character of string
+
+Check even or odd length string
+
+Print alternate characters
+
+Trim leading spaces
+
+Trim trailing spaces
+
+🔹 INTERMEDIATE LEVEL (51–120)
+
+Interview-oriented + real-life logic
+
+Remove duplicate characters from string
+
+Find duplicate characters in string
+
+Count frequency of each character
+
+Find most frequent character
+
+Find least frequent character
+
+Check if two strings are anagrams
+
+Sort characters of a string
+
+Reverse words in a sentence
+
+Capitalize first letter of each word
+
+Convert sentence to title case
+
+Check if string contains only unique characters
+
+Find longest word in a sentence
+
+Find shortest word in a sentence
+
+Remove vowels from string
+
+Remove consonants from string
+
+Replace word in a sentence
+
+Find substring in a string
+
+Count occurrences of a substring
+
+Remove a substring from string
+
+Find all substrings of a string
+
+Check if string starts with another string
+
+Check if string ends with another string
+
+Find second most frequent character
+
+Check if string is rotation of another
+
+Reverse string using recursion
+
+Reverse words but keep order
+
+Remove extra spaces between words
+
+Convert string to integer (atoi)
+
+Convert integer to string
+
+Check valid email format
+
+Check valid mobile number
+
+Password strength checker
+
+Mask sensitive data (credit card, phone)
+
+Check valid username rules
+
+Find first non-repeating character
+
+Find first repeating character
+
+Remove all non-alphabetic characters
+
+Count punctuation marks
+
+Check palindrome ignoring spaces & case
+
+Check sentence is pangram
+
+Find common characters between two strings
+
+Find uncommon characters
+
+Check if string has balanced parentheses
+
+Validate brackets in expression
+
+Encode string (run-length encoding)
+
+Decode encoded string
+
+Compress string (aaabb → a3b2)
+
+Expand compressed string
+
+Find longest palindrome substring
+
+Find longest repeating substring
+
+Remove characters of one string from another
+
+Find lexicographically largest string
+
+Find lexicographically smallest string
+
+Convert camelCase to snake_case
+
+Convert snake_case to camelCase
+
+Convert string to sentence case
+
+Find all anagram substrings
+
+Check if string can be rearranged to palindrome
+
+Count number of palindromic words
+
+Find word frequency in paragraph
+
+Remove stop words (is, the, a)
+
+Replace multiple spaces with single space
+
+Check string contains emojis
+
+Validate URL format
+
+Find longest common prefix
+
+Find longest common suffix
+
+Merge two strings alternately
+
+Check string equality without equals()
+
+Find missing characters from alphabet
+
+Print characters based on frequency
+
+🔹 ADVANCED LEVEL (121–200)
+
+Real-world + company interview problems
+
+Implement custom string class
+
+Implement strcmp() manually
+
+Implement strlen() manually
+
+Implement strcpy() manually
+
+Implement strstr() manually
+
+Pattern matching using KMP algorithm
+
+Pattern matching using Rabin-Karp
+
+Pattern matching using Z-algorithm
+
+Find minimum window substring
+
+Longest substring without repeating characters
+
+Longest substring with at most K distinct characters
+
+Count distinct substrings
+
+Check if strings differ by one edit
+
+Edit distance between two strings
+
+Word break problem
+
+Group anagrams
+
+Rearrange string so no adjacent characters same
+
+Find smallest window containing all characters
+
+Check if string is valid shuffle of two strings
+
+Find all permutations of string
+
+Find next lexicographical permutation
+
+Check if string is subsequence of another
+
+Count subsequences of string
+
+Decode encoded string like "3[a2[b]]"
+
+Encode URL (TinyURL problem)
+
+Auto-complete system using strings
+
+Implement spell checker
+
+Find longest repeating non-overlapping substring
+
+Build Trie for string storage
+
+Search words using Trie
+
+Implement text editor undo-redo
+
+Check plagiarism using strings
+
+Keyword search in document
+
+Find sentiment of text
+
+Implement string hashing
+
+Check isomorphic strings
+
+Remove minimum characters to make string palindrome
+
+Minimum insertions for palindrome
+
+Find longest word chain
+
+Compare version numbers ("1.2.10")
+
+Find valid IP addresses from string
+
+Restore IP addresses
+
+Implement regex matcher
+
+Implement wildcard pattern matching
+
+Find repeated DNA sequences
+
+Check string encryption/decryption
+
+Detect spam messages using patterns
+
+Chat filter using banned words
+
+Find top K frequent words
+
+Implement search engine indexing
+
+Auto-correct misspelled words
+
+Check log file pattern matching
+
+Compare large strings efficiently
+
+Find similarity between two documents
+
+Tokenize sentence for NLP
+
+Implement word suggestion system
+
+Implement autocomplete using prefix
+
+Text compression using Huffman coding
+
+Detect language of string
+
+Validate HTML/XML tags
+
+Implement markdown parser
+
+String matching in DNA sequences
+
+Find all palindromic partitions
+
+Check mirrored strings
+
+Convert number words to digits
+
+Convert digits to words
+
+Implement chat message formatter
+
+Find shortest unique substring
+
+Case-insensitive string comparison
+
+Build search suggestion system
+
+Implement substring search in file
+
+Detect duplicate messages
+
+Normalize text for search
+
+Implement password encryption logic
+
+Remove offensive words automatically
+
+Find trending words from text
+
+Real-time chat filtering
+
+Text analytics on reviews
+
+Implement string diff tool
+
+Build real-world string utility library

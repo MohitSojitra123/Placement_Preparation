@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        width: 100px;
+        height: 100px;
+    }
+
+    .even{
+     color: red;
+     background-color: yellow;
+     font-size: 50px;
+    }
+
+    .odd{
+      color: aquamarine;
+      background-color: violet;
+      font-size: 50px;
+    }
+</style>
+<body>
+    <button id="btn">Click Me !</button>
+</body>
+<script>
+     let btn=document.getElementById("btn");
+      let num=0;
+
+     btn.addEventListener('click',function(){
+          btn.innerHTML=num;
+
+          if( num % 2 ===   0){
+           btn.classList.remove('odd');
+           btn.classList.add('even');
+          }else{
+           btn.classList.add('odd');
+           btn.classList.remove('even');
+          }
+
+          num++;
+     })
+</script>
+</html>

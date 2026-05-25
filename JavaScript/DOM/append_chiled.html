@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="todo">
+        <li id="itm1">Item 1</li>
+    </ul>
+</body>
+<script>
+
+// appendChiled
+let ul=document.getElementById("todo");
+let li=document.createElement("li");
+li.textContent="New Nodeeee";
+ul.appendChild(li);
+
+// InsertBefore
+const referenceNode=document.getElementById("itm1");
+let li2=document.createElement("li");
+li2.textContent="Item 2";
+ul.insertBefore(li2,referenceNode);
+
+
+// removeChiled
+ul.removeChild(referenceNode);
+
+// replaceChiled
+
+</script>
+</html>

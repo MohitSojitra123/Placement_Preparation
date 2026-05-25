@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="first" id="first" step="any">
+    <select id="ope">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>      
+     </select>
+    <input type="number" name="second" id="second"  step="any">
+     <br>
+     <br>
+     <button onclick="cal()">Calculate..</button>
+     <input type="text" name="" id="result" >
+    
+</body>
+<script>
+   function cal(){
+    let val_1=document.getElementById('first').value;
+    let val_2=document.getElementById('second').value;
+    let opt=document.getElementById('ope').value;
+
+    console.log(val_1);
+    console.log(val_2);
+    console.log(opt);
+
+    let result=document.getElementById("result");
+    console.log(result);
+   
+   
+    if(opt == '+'){
+      var abc=parseInt(val_1)+parseInt(val_2);  // convert String to Number  JavaScript  input Box Are Consider string
+    }else if(opt == '-'){
+        abc=parseInt(val_1)-parseInt(val_2);  
+       result.innerHTML=abc
+    }else if(opt == '*'){
+        abc=parseInt(val_1)*parseInt(val_2); 
+       result.innerHTML=abc
+    }else if(opt == '/'){
+        abc=parseInt(val_1)/parseInt(val_2);
+       result.innerHTML=abc
+    }else if(opt == '%'){
+        abc=parseInt(val_1)%parseInt(val_2);
+       result.innerHTML=abc
+    }
+
+    result.value=abc;
+   }
+</script>
+</html>

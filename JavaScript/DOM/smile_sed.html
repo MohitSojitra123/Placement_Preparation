@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #btn{
+        width:100px;
+        height: 40px;
+        font-size: 20px;
+        color:black;
+        background-color:red;
+        border: none;
+        border-radius: 20px;
+
+    }
+</style>
+<body>
+    <img  id='img_1' src="no.jpg" width="350px"  >
+
+    <button id="btn">Sad</button>
+</body>
+<script>
+    const img_1=document.getElementById("img_1");
+    const btn=document.getElementById('btn');
+
+   img_1.addEventListener('click',function(){
+    if(img_1.src.match('no')){
+       img_1.src="yes.jpg";
+       btn.innerText="Smile";
+       btn.style.backgroundColor="green";
+       btn.style.color="white";
+    }else{
+        img_1.src="no.jpg";
+        btn.innerText="Sad";
+        btn.style.backgroundColor="red";
+    }
+   })
+
+   btn.addEventListener('click',function(){
+    if(img_1.src.match('no')){
+       img_1.src="yes.jpg";
+       btn.innerText="Smile";
+       btn.style.backgroundColor="green";
+       btn.style.color="white";
+    }else{
+        img_1.src="no.jpg";
+        btn.innerText="Sad";
+        btn.style.backgroundColor="red";
+        btn.color="black"
+    }
+   })
+
+</script>
+</html>

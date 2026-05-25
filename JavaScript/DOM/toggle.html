@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="id123">Click Me !</button>
+    <h1 id="h_1"></h1>
+  </body>
+  <script>
+    var val = 1;
+    let btn = document.getElementById("id123");
+    let h_1 = document.getElementById("h_1");
+    console.log(btn);
+
+    btn.addEventListener("click", function () {
+      if (val == 1) {
+        h_1.innerText = "Button Is Clicked...";
+        val = 2;
+      } else {
+        h_1.innerText = " ";
+        val = 1;
+        
+      }
+    });
+  </script>
+</html>

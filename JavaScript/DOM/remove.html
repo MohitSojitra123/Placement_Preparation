@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav></nav>
+
+    <ol>
+        <li class="abc">a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ol>
+
+</body> 
+<script>
+  document.getElementsByTagName("nav")[0].remove();
+
+  const cl1=document.getElementsByClassName("abc");
+//cl1[0].classList.remove("abc");  // // remove element niche no code not execute...
+   cl1[0].classList.toggle('active_deactive');
+   cl1[0].classList.add("div1","div2");
+
+  
+</script>
+</html>

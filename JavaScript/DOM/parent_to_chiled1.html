@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ol id="second">
+     <li>123</li>
+     <li>456</li>
+     <li>789</li>
+    </ol>
+
+</body>
+<script>
+   let value_1=document.getElementById("second");
+
+   let value_2=value_1.getElementsByTagName("li");
+
+   console.log(value_2);
+   value_2[0].innerText="mohit";
+   value_2[1].innerText="v..";
+   value_2[2].innerText="sojitra"
+</script>
+</html>

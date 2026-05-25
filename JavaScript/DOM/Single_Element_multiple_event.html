@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="btn1">Click Me !</button>
+
+</body>
+<script>
+
+let value_1=document.getElementById("btn1");
+ value_1.addEventListener("click",function(){
+    alert("Button Is Clicked....");
+ }
+)
+
+value_1.addEventListener("mouseover",function(){
+   let value_2=document.getElementsByTagName("body");
+    value_2[0].style.backgroundColor="red";
+})
+
+value_1.addEventListener("mouseout",function(){
+    // console.log("That Is Active mouseout...");
+    // let value_3=document.getElementsByTagName("body");
+    // value_3[0].style.backgroundColor="blue";
+    //short Method Or...
+    document.body.style.backgroundColor="blue";
+})
+
+</script>
+</html>

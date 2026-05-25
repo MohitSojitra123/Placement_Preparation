@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Change Event...</label>
+    <input type="text" id="a1" autocomplete="off">
+    <br>
+    <br>
+    <label for="">Input Event...</label>
+    <input type="text" id="a2" autocomplete="off">
+    <br>
+    <br>
+    <div class="">
+        Change Event...
+          <h1 id="h_1"></h1>
+      </div>
+  
+      <div class="">
+          Input Event...
+          <h1 id="h_2"></h1>
+      </div>
+  
+</body>
+<script>
+
+  let a1=document.getElementById('a1');
+  let a2=document.getElementById('a2');
+
+  let h_1=document.getElementById('h_1');
+  let h_2=document.getElementById('h_2');
+
+  a1.addEventListener('change',function(abc){
+      h_1.innerHTML=this.value;
+  })
+
+  a2.addEventListener('input',function(xyz){
+       h_2.innerHTML=this.value;
+  })
+
+
+
+</script>
+</html>

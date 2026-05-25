@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="my_form">
+     Name  <input type="text" autocomplete="of">
+  <br>
+  <br>
+    <input type="submit">
+    </form>
+</body>
+<script>
+
+    let value_1=document.getElementById("my_form");
+
+    value_1.addEventListener("submit",function(e){
+        e.preventDefault();   //preventDefault are used to change original work of any property....
+    }); 
+
+</script>
+</html>

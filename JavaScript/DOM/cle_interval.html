@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="h_1">Display</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+
+</body>
+
+<script>
+    let  h_1=document.getElementById('h_1');
+    let start=document.getElementById('start')
+    let stop=document.getElementById('stop')
+
+    let val=1;
+    let print
+
+    let count = () =>{
+
+       print1=setInterval(function(){
+        val++
+        h_1.innerHTML=val
+       },500)
+       
+    }
+
+    start.addEventListener('click',count);
+
+    stop.addEventListener('click',function(){
+        clearTimeout(print1);
+        val=0
+    })
+
+</script>
+
+</html>

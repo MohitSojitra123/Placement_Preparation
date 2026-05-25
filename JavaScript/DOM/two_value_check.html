@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name_1" autocomplete="of">
+    <br>
+    <br>
+    <input type="text" id="name_2" autocomplete="of">
+    <br>
+    <br>
+    <h1 id="h_1"></h1>
+
+</body>
+<script>
+
+   let name_1=document.getElementById('name_1');
+   let name_2=document.getElementById('name_2');
+   let h_1=document.getElementById('h_1');
+
+
+//  name_2.addEventListener('input',function(){
+ name_2.addEventListener('keyup',function(){
+
+    if(name_1.value.length > 0 && name_2.value.length > 0){
+        if(name_1.value == name_2.value){
+            h_1.innerHTML="equal";
+        }else{
+                h_1.innerHTML="Not equal";
+         }
+    }else{
+        h_1.innerHTML="Not equal";
+    }
+
+ })
+
+ name_1.addEventListener('keyup',function(){
+
+if(name_1.value.length > 0 && name_2.value.length > 0){
+    if(name_1.value == name_2.value){
+        h_1.innerHTML="equal";
+    }else{
+            h_1.innerHTML="Not equal";
+     }
+}else{
+    h_1.innerHTML="Not equal";
+}
+
+})
+</script>
+</html>

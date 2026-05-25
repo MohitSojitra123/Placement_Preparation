@@ -1,0 +1,1298 @@
+# Array Interview Questions: Basic to Advanced (1–400)
+
+## Introduction
+
+This guide contains 400 array interview questions from beginner to advanced level.
+
+Topics Covered:
+
+* Basic Array Operations
+* Searching
+* Sorting
+* Traversal
+* Prefix Sum
+* Sliding Window
+* Two Pointer
+* Binary Search
+* Hashing
+* Matrix Problems
+* Dynamic Programming on Arrays
+* Greedy
+* Heap
+* Stack + Array
+* Real-world Problems
+* FAANG/IT Company Interview Problems
+
+Each question includes:
+
+* Problem Statement
+* Difficulty Level
+* Real-World Use Case
+* Main Concept
+* Short Explanation
+
+---
+
+# LEVEL 1 — BASIC ARRAY QUESTIONS (1–50)
+
+## 1. Find Maximum Element in Array
+
+* Difficulty: Easy
+* Concept: Traversal
+* Real World: Finding highest salary in company database.
+* Explanation: Traverse the array and keep updating maximum value.
+
+## 2. Find Minimum Element in Array
+
+* Difficulty: Easy
+* Concept: Traversal
+* Real World: Lowest temperature detection.
+* Explanation: Compare all elements and store smallest.
+
+## 3. Find Sum of All Elements
+
+* Difficulty: Easy
+* Concept: Accumulation
+* Real World: Total monthly expenses.
+* Explanation: Add every element using loop.
+
+## 4. Find Average of Array
+
+* Difficulty: Easy
+* Concept: Math + Traversal
+* Real World: Student average marks.
+* Explanation: Sum all values and divide by size.
+
+## 5. Count Even and Odd Numbers
+
+* Difficulty: Easy
+* Concept: Modulo
+* Real World: Analytics classification.
+* Explanation: Use %2 to identify even/odd.
+
+## 6. Reverse an Array
+
+* Difficulty: Easy
+* Concept: Two Pointer
+* Real World: Reverse playlist order.
+* Explanation: Swap start and end elements.
+
+## 7. Copy One Array into Another
+
+* Difficulty: Easy
+* Concept: Traversal
+* Real World: Backup systems.
+* Explanation: Copy each element using loop.
+
+## 8. Find Second Largest Element
+
+* Difficulty: Easy
+* Concept: Tracking Variables
+* Real World: Second highest sales.
+* Explanation: Maintain largest and second largest.
+
+## 9. Find Second Smallest Element
+
+* Difficulty: Easy
+* Concept: Tracking Variables
+* Real World: Runner-up ranking.
+* Explanation: Track minimum and second minimum.
+
+## 10. Search an Element in Array
+
+* Difficulty: Easy
+* Concept: Linear Search
+* Real World: Searching contact in phonebook.
+* Explanation: Compare each element with target.
+
+## 11. Count Frequency of Elements
+
+* Difficulty: Easy
+* Concept: Hashing
+* Real World: Product sales count.
+* Explanation: Use hashmap/frequency array.
+
+## 12. Sort Array Ascending Order
+
+* Difficulty: Easy
+* Concept: Sorting
+* Real World: Price sorting.
+* Explanation: Arrange smallest to largest.
+
+## 13. Sort Array Descending Order
+
+* Difficulty: Easy
+* Concept: Sorting
+* Real World: Leaderboard ranking.
+* Explanation: Arrange largest to smallest.
+
+## 14. Merge Two Arrays
+
+* Difficulty: Easy
+* Concept: Array Traversal
+* Real World: Merge customer data.
+* Explanation: Append elements into new array.
+
+## 15. Remove Duplicate Elements
+
+* Difficulty: Easy
+* Concept: HashSet
+* Real World: Remove duplicate users.
+* Explanation: Store unique values only.
+
+## 16. Find Array Length Without length Property
+
+* Difficulty: Easy
+* Concept: Traversal
+* Real World: Low-level programming.
+* Explanation: Count manually.
+
+## 17. Check Array is Sorted or Not
+
+* Difficulty: Easy
+* Concept: Comparison
+* Real World: Verify ranked data.
+* Explanation: Compare adjacent elements.
+
+## 18. Rotate Array Left by One
+
+* Difficulty: Easy
+* Concept: Rotation
+* Real World: Shift queue data.
+* Explanation: Move first element to last.
+
+## 19. Rotate Array Right by One
+
+* Difficulty: Easy
+* Concept: Rotation
+* Real World: Circular scheduling.
+* Explanation: Move last element to first.
+
+## 20. Find Missing Number
+
+* Difficulty: Easy
+* Concept: Sum Formula
+* Real World: Missing ticket ID.
+* Explanation: Compare expected and actual sum.
+
+## 21. Find Duplicate Number
+
+* Difficulty: Easy
+* Concept: Hashing
+* Real World: Duplicate transaction detection.
+* Explanation: Store visited elements.
+
+## 22. Separate Even and Odd Elements
+
+* Difficulty: Easy
+* Concept: Partition
+* Real World: Data grouping.
+* Explanation: Place evens first, odds later.
+
+## 23. Find Largest Difference
+
+* Difficulty: Easy
+* Concept: Math
+* Real World: Stock price difference.
+* Explanation: Max - Min.
+
+## 24. Find Smallest Difference
+
+* Difficulty: Easy
+* Concept: Sorting
+* Real World: Closest sensor readings.
+* Explanation: Sort and compare neighbors.
+
+## 25. Find Common Elements in Two Arrays
+
+* Difficulty: Easy
+* Concept: Hashing
+* Real World: Mutual friends list.
+* Explanation: Compare using set.
+
+## 26. Find Union of Two Arrays
+
+* Difficulty: Easy
+* Concept: Set
+* Real World: Combined customer records.
+* Explanation: Store unique values.
+
+## 27. Find Intersection of Two Arrays
+
+* Difficulty: Easy
+* Concept: Hashing
+* Real World: Common purchases.
+* Explanation: Elements present in both arrays.
+
+## 28. Move Zeros to End
+
+* Difficulty: Easy
+* Concept: Two Pointer
+* Real World: Data cleanup.
+* Explanation: Shift non-zero values forward.
+
+## 29. Move Negative Numbers to One Side
+
+* Difficulty: Easy
+* Concept: Partitioning
+* Real World: Debt vs profit separation.
+* Explanation: Rearrange negatives together.
+
+## 30. Find First Repeating Element
+
+* Difficulty: Easy
+* Concept: HashMap
+* Real World: First repeated login.
+* Explanation: Track frequency.
+
+## 31. Find First Non-Repeating Element
+
+* Difficulty: Easy
+* Concept: Frequency Count
+* Real World: Unique event detection.
+* Explanation: Find frequency equal to 1.
+
+## 32. Count Positive and Negative Numbers
+
+* Difficulty: Easy
+* Concept: Traversal
+* Real World: Profit/loss analysis.
+* Explanation: Compare with zero.
+
+## 33. Find Pair with Given Sum
+
+* Difficulty: Easy
+* Concept: Two Sum
+* Real World: Budget planning.
+* Explanation: Use hashmap for complement.
+
+## 34. Find Pair with Given Difference
+
+* Difficulty: Easy
+* Concept: Sorting + Two Pointer
+* Real World: Gap analysis.
+* Explanation: Compare element differences.
+
+## 35. Find Peak Element
+
+* Difficulty: Easy
+* Concept: Comparison
+* Real World: Traffic spike detection.
+* Explanation: Element greater than neighbors.
+
+## 36. Find Leaders in Array
+
+* Difficulty: Easy
+* Concept: Traversal from Right
+* Real World: Highest future stock.
+* Explanation: Greater than all right elements.
+
+## 37. Reverse Every K Elements
+
+* Difficulty: Easy
+* Concept: Chunk Processing
+* Real World: Data batching.
+* Explanation: Reverse subarrays.
+
+## 38. Find Majority Element
+
+* Difficulty: Medium
+* Concept: Boyer-Moore Voting
+* Real World: Most voted candidate.
+* Explanation: Element appearing more than n/2.
+
+## 39. Check if Two Arrays are Equal
+
+* Difficulty: Easy
+* Concept: Comparison
+* Real World: File verification.
+* Explanation: Compare all elements.
+
+## 40. Print Alternate Elements
+
+* Difficulty: Easy
+* Concept: Index Traversal
+* Real World: Alternate frame sampling.
+* Explanation: Print index 0,2,4...
+
+## 41. Replace Each Element with Greatest on Right
+
+* Difficulty: Medium
+* Concept: Reverse Traversal
+* Real World: Future profit estimation.
+* Explanation: Maintain maximum from right.
+
+## 42. Find Equilibrium Index
+
+* Difficulty: Medium
+* Concept: Prefix Sum
+* Real World: Balanced load distribution.
+* Explanation: Left sum equals right sum.
+
+## 43. Find Smallest and Largest Together
+
+* Difficulty: Easy
+* Concept: Pair Comparison
+* Real World: Min/max analytics.
+* Explanation: Optimize comparisons.
+
+## 44. Cyclically Rotate Array by One
+
+* Difficulty: Easy
+* Concept: Rotation
+* Real World: Round-robin scheduling.
+* Explanation: Shift last to first.
+
+## 45. Find Index of Target
+
+* Difficulty: Easy
+* Concept: Linear Search
+* Real World: Database lookup.
+* Explanation: Return matching index.
+
+## 46. Print Array in Spiral Order
+
+* Difficulty: Medium
+* Concept: Matrix Traversal
+* Real World: Image scanning.
+* Explanation: Traverse layer by layer.
+
+## 47. Find Sum of Digits of Array Elements
+
+* Difficulty: Easy
+* Concept: Digit Extraction
+* Real World: Number analytics.
+* Explanation: Repeated %10 and /10.
+
+## 48. Count Prime Numbers in Array
+
+* Difficulty: Easy
+* Concept: Prime Check
+* Real World: Mathematical datasets.
+* Explanation: Verify divisibility.
+
+## 49. Find Product of Array Elements
+
+* Difficulty: Easy
+* Concept: Multiplication
+* Real World: Compound calculations.
+* Explanation: Multiply all values.
+
+## 50. Rearrange Positive and Negative Numbers Alternately
+
+* Difficulty: Medium
+* Concept: Rearrangement
+* Real World: Signal balancing.
+* Explanation: Alternate placement.
+
+---
+
+# LEVEL 2 — INTERMEDIATE ARRAY QUESTIONS (51–150)
+
+## 51. Kadane’s Algorithm — Maximum Subarray Sum
+
+* Difficulty: Medium
+* Concept: Dynamic Programming
+* Real World: Maximum profit interval.
+* Explanation: Keep current sum and global maximum.
+
+## 52. Minimum Subarray Sum
+
+* Difficulty: Medium
+* Concept: Kadane Variant
+* Real World: Minimum loss interval.
+* Explanation: Track minimum running sum.
+
+## 53. Stock Buy and Sell for Maximum Profit
+
+* Difficulty: Medium
+* Concept: Greedy
+* Real World: Trading systems.
+* Explanation: Track minimum price and max profit.
+
+## 54. Best Time to Buy and Sell Stock II
+
+* Difficulty: Medium
+* Concept: Greedy
+* Real World: Multi-trade optimization.
+* Explanation: Add all positive differences.
+
+## 55. Container With Most Water
+
+* Difficulty: Medium
+* Concept: Two Pointer
+* Real World: Water storage simulation.
+* Explanation: Maximize width × height.
+
+## 56. Trapping Rain Water
+
+* Difficulty: Hard
+* Concept: Prefix Max
+* Real World: Rainwater harvesting.
+* Explanation: Water depends on left/right maximum.
+
+## 57. Product of Array Except Self
+
+* Difficulty: Medium
+* Concept: Prefix and Suffix Product
+* Real World: Dependency calculation.
+* Explanation: Multiply all except current index.
+
+## 58. Maximum Product Subarray
+
+* Difficulty: Medium
+* Concept: Dynamic Programming
+* Real World: Maximum growth period.
+* Explanation: Track min and max products.
+
+## 59. Longest Consecutive Sequence
+
+* Difficulty: Medium
+* Concept: HashSet
+* Real World: Consecutive attendance records.
+* Explanation: Start sequence from smallest element.
+
+## 60. Find All Subarrays with Given Sum
+
+* Difficulty: Medium
+* Concept: Prefix Sum + HashMap
+* Real World: Transaction analysis.
+* Explanation: Use cumulative sum.
+
+## 61. Subarray with Zero Sum
+
+## 62. Largest Subarray with Equal 0s and 1s
+
+## 63. Count Inversions in Array
+
+## 64. Merge Overlapping Intervals
+
+## 65. Insert Interval
+
+## 66. Non-overlapping Intervals
+
+## 67. Meeting Rooms Problem
+
+## 68. Merge Sorted Arrays Without Extra Space
+
+## 69. Chocolate Distribution Problem
+
+## 70. Dutch National Flag Problem
+
+## 71. Sort 0s, 1s, and 2s
+
+## 72. Find Duplicate Using Floyd Cycle Detection
+
+## 73. Missing and Repeating Number
+
+## 74. Maximum Circular Subarray Sum
+
+## 75. Next Greater Element
+
+## 76. Previous Greater Element
+
+## 77. Next Smaller Element
+
+## 78. Sliding Window Maximum
+
+## 79. First Negative Number in Every Window
+
+## 80. Maximum Sum of K Size Subarray
+
+## 81. Minimum Size Subarray Sum
+
+## 82. Longest Substring Without Repeating Characters
+
+## 83. Longest Repeating Character Replacement
+
+## 84. Minimum Window Substring
+
+## 85. Permutation in String
+
+## 86. Find Anagrams in String
+
+## 87. Longest Ones After Replacement
+
+## 88. Binary Subarrays with Sum
+
+## 89. Count Nice Subarrays
+
+## 90. Fruits Into Baskets
+
+## 91. Maximum Consecutive Ones
+
+## 92. Max Consecutive Ones III
+
+## 93. Find Pivot Index
+
+## 94. Running Sum of Array
+
+## 95. Richest Customer Wealth
+
+## 96. Kids With Greatest Candies
+
+## 97. Shuffle the Array
+
+## 98. Create Target Array in Given Order
+
+## 99. Check if Array is Monotonic
+
+## 100. Height Checker
+
+## 101. Rank Transform of Array
+
+## 102. Find Lucky Integer
+
+## 103. Array Partition
+
+## 104. Relative Sort Array
+
+## 105. Intersection of Multiple Arrays
+
+## 106. Count Odd Numbers in Interval
+
+## 107. Sum of Unique Elements
+
+## 108. Matrix Diagonal Sum
+
+## 109. Transpose Matrix
+
+## 110. Reshape Matrix
+
+## 111. Toeplitz Matrix
+
+## 112. Lucky Numbers in Matrix
+
+## 113. Spiral Matrix
+
+## 114. Spiral Matrix II
+
+## 115. Rotate Image
+
+## 116. Set Matrix Zeroes
+
+## 117. Search in 2D Matrix
+
+## 118. Search in Sorted Matrix
+
+## 119. Row with Maximum Ones
+
+## 120. K Weakest Rows in Matrix
+
+## 121. Find Median in Row-wise Sorted Matrix
+
+## 122. Common Elements in All Rows
+
+## 123. Maximum Rectangle in Binary Matrix
+
+## 124. Island Perimeter
+
+## 125. Number of Islands
+
+## 126. Flood Fill
+
+## 127. Surrounded Regions
+
+## 128. Word Search
+
+## 129. Valid Sudoku
+
+## 130. Sudoku Solver
+
+## 131. Game of Life
+
+## 132. Battleships in Board
+
+## 133. Diagonal Traverse
+
+## 134. Pascal Triangle
+
+## 135. Pascal Triangle II
+
+## 136. Rotate Array by K
+
+## 137. Rearrange Array in Wave Form
+
+## 138. Zig-Zag Array
+
+## 139. Frequency Sort Array
+
+## 140. Sort by Parity
+
+## 141. Largest Number Formation
+
+## 142. Rearrange Array by Sign
+
+## 143. Find Missing Positive
+
+## 144. Find Kth Largest Element
+
+## 145. K Closest Points to Origin
+
+## 146. Top K Frequent Elements
+
+## 147. Find Median from Data Stream
+
+## 148. Continuous Median Problem
+
+## 149. Min Heap Operations
+
+## 150. Max Heap Operations
+
+---
+
+# LEVEL 3 — ADVANCED ARRAY QUESTIONS (151–250)
+
+## 151. Median of Two Sorted Arrays
+
+* Difficulty: Hard
+* Concept: Binary Search
+* Real World: Merge analytics from two databases.
+* Explanation: Partition arrays optimally.
+
+## 152. Split Array Largest Sum
+
+## 153. Painter Partition Problem
+
+## 154. Allocate Minimum Pages
+
+## 155. Aggressive Cows Problem
+
+## 156. Capacity to Ship Packages
+
+## 157. Minimize Maximum Distance
+
+## 158. Search in Rotated Sorted Array
+
+## 159. Find Minimum in Rotated Array
+
+## 160. Peak Index in Mountain Array
+
+## 161. Single Element in Sorted Array
+
+## 162. Koko Eating Bananas
+
+## 163. Magnetic Force Between Balls
+
+## 164. Smallest Divisor Given Threshold
+
+## 165. Find Peak Element Using Binary Search
+
+## 166. Search Range of Element
+
+## 167. Count Occurrences Using Binary Search
+
+## 168. Square Root Using Binary Search
+
+## 169. Nth Root of Number
+
+## 170. Search Insert Position
+
+## 171. Binary Search on Answer Problems
+
+## 172. Book Allocation Problem
+
+## 173. Min Days to Make Bouquets
+
+## 174. Split Array into Consecutive Subsequences
+
+## 175. Jump Game
+
+## 176. Jump Game II
+
+## 177. Gas Station Problem
+
+## 178. Candy Distribution
+
+## 179. Task Scheduler
+
+## 180. Reorganize String
+
+## 181. Queue Reconstruction by Height
+
+## 182. Advantage Shuffle
+
+## 183. Erase Overlap Intervals
+
+## 184. Burst Balloons
+
+## 185. Insert Delete GetRandom O(1)
+
+## 186. Random Pick Index
+
+## 187. Reservoir Sampling
+
+## 188. Fisher-Yates Shuffle
+
+## 189. Rotate Function
+
+## 190. Maximum Gap
+
+## 191. Wiggle Sort
+
+## 192. Wiggle Sort II
+
+## 193. Count Smaller Numbers After Self
+
+## 194. Reverse Pairs
+
+## 195. Range Sum Query
+
+## 196. Segment Tree Implementation
+
+## 197. Fenwick Tree / BIT
+
+## 198. Lazy Propagation
+
+## 199. Sparse Table
+
+## 200. MO’s Algorithm
+
+## 201. Count Distinct in Range Queries
+
+## 202. Offline Query Processing
+
+## 203. Maximum XOR Pair
+
+## 204. Trie + Array Problems
+
+## 205. Subarray XOR Equals K
+
+## 206. Maximum XOR Subarray
+
+## 207. Longest Increasing Subsequence
+
+## 208. Longest Bitonic Subsequence
+
+## 209. Maximum Sum Increasing Subsequence
+
+## 210. House Robber
+
+## 211. House Robber II
+
+## 212. Delete and Earn
+
+## 213. Coin Change
+
+## 214. Coin Change II
+
+## 215. Minimum Cost Climbing Stairs
+
+## 216. Climbing Stairs
+
+## 217. Partition Equal Subset Sum
+
+## 218. Target Sum
+
+## 219. 0/1 Knapsack
+
+## 220. Unbounded Knapsack
+
+## 221. Rod Cutting Problem
+
+## 222. Matrix Chain Multiplication
+
+## 223. Burst Balloons DP
+
+## 224. Boolean Parenthesization
+
+## 225. Palindrome Partitioning
+
+## 226. Minimum Path Sum
+
+## 227. Unique Paths
+
+## 228. Unique Paths II
+
+## 229. Triangle Minimum Path Sum
+
+## 230. Dungeon Game
+
+## 231. Cherry Pickup
+
+## 232. Maximal Square
+
+## 233. Maximal Rectangle
+
+## 234. Edit Distance
+
+## 235. Distinct Subsequences
+
+## 236. Wildcard Matching
+
+## 237. Regular Expression Matching
+
+## 238. Longest Common Subsequence
+
+## 239. Longest Common Subarray
+
+## 240. Shortest Common Supersequence
+
+## 241. Minimum Insertions for Palindrome
+
+## 242. Longest Palindromic Subsequence
+
+## 243. Partition Array for Maximum Sum
+
+## 244. Stone Game
+
+## 245. Predict the Winner
+
+## 246. Optimal Strategy for Game
+
+## 247. Maximum Alternating Subsequence Sum
+
+## 248. Arithmetic Slices
+
+## 249. Number of Longest Increasing Subsequences
+
+## 250. Russian Doll Envelopes
+
+---
+
+# LEVEL 4 — EXPERT & FAANG LEVEL QUESTIONS (251–400)
+
+## 251. Skyline Problem
+
+* Difficulty: Hard
+* Concept: Sweep Line
+* Real World: City skyline rendering.
+* Explanation: Track active building heights.
+
+## 252. Largest Rectangle in Histogram
+
+## 253. Trapping Rain Water II
+
+## 254. Sliding Window Median
+
+## 255. Data Stream as Disjoint Intervals
+
+## 256. Maximum Frequency Stack
+
+## 257. LFU Cache
+
+## 258. LRU Cache
+
+## 259. Time Based Key Value Store
+
+## 260. Design Circular Queue
+
+## 261. Design Circular Deque
+
+## 262. Randomized Collection
+
+## 263. Median Finder
+
+## 264. Design HashMap
+
+## 265. Design HashSet
+
+## 266. Snapshot Array
+
+## 267. Range Module
+
+## 268. Falling Squares
+
+## 269. Count of Smaller Numbers After Self
+
+## 270. Reverse Nodes in K Group (Array Simulation)
+
+## 271. Array Nesting
+
+## 272. Find Duplicate Subtrees
+
+## 273. Maximum Width Ramp
+
+## 274. Daily Temperatures
+
+## 275. Asteroid Collision
+
+## 276. Car Fleet
+
+## 277. Online Stock Span
+
+## 278. Sum of Subarray Minimums
+
+## 279. Sum of Subarray Ranges
+
+## 280. Largest Subarray with 0 Sum
+
+## 281. Smallest Range Covering Elements
+
+## 282. Minimum Number of Refueling Stops
+
+## 283. IPO Problem
+
+## 284. Furthest Building You Can Reach
+
+## 285. Sliding Puzzle
+
+## 286. Swim in Rising Water
+
+## 287. Shortest Path in Binary Matrix
+
+## 288. Minimum Effort Path
+
+## 289. Rotten Oranges
+
+## 290. Pacific Atlantic Water Flow
+
+## 291. Course Schedule
+
+## 292. Alien Dictionary
+
+## 293. Reconstruct Itinerary
+
+## 294. Network Delay Time
+
+## 295. Cheapest Flights Within K Stops
+
+## 296. Dijkstra on Grid
+
+## 297. Bellman Ford Array Representation
+
+## 298. Floyd Warshall Matrix Problem
+
+## 299. Union Find Applications
+
+## 300. Kruskal MST Using Arrays
+
+## 301. Prim’s Algorithm
+
+## 302. Tarjan Algorithm
+
+## 303. Kosaraju Algorithm
+
+## 304. Bridges in Graph
+
+## 305. Articulation Points
+
+## 306. Topological Sort
+
+## 307. Bipartite Graph Check
+
+## 308. Graph Coloring
+
+## 309. Euler Path Problem
+
+## 310. Hamiltonian Path Problem
+
+## 311. N Queen Problem
+
+## 312. Rat in Maze
+
+## 313. Knight Tour Problem
+
+## 314. Sudoku Backtracking
+
+## 315. Word Break Problem
+
+## 316. Combination Sum
+
+## 317. Subset Sum
+
+## 318. Generate All Subsets
+
+## 319. Generate All Permutations
+
+## 320. Combination Generation
+
+## 321. K Sum Problem
+
+## 322. Four Sum Problem
+
+## 323. Three Sum Closest
+
+## 324. Count Triplets Smaller Than Target
+
+## 325. Closest Pair Problem
+
+## 326. Convex Hull
+
+## 327. Line Sweep Problems
+
+## 328. Maximum Points on Line
+
+## 329. Interval Scheduling
+
+## 330. Employee Free Time
+
+## 331. Calendar Booking Problem
+
+## 332. Meeting Room III
+
+## 333. Parallel Courses
+
+## 334. CPU Task Scheduling
+
+## 335. Server Load Balancing
+
+## 336. Cache Optimization
+
+## 337. Data Compression Arrays
+
+## 338. Memory Allocation Simulation
+
+## 339. Circular Buffer Design
+
+## 340. Log Aggregation Problem
+
+## 341. Real-Time Analytics Window
+
+## 342. Fraud Detection Using Sliding Window
+
+## 343. Trending Hashtag Counter
+
+## 344. Recommendation System Array Matching
+
+## 345. Ad Click Analysis
+
+## 346. Network Packet Analysis
+
+## 347. Sensor Data Optimization
+
+## 348. IoT Stream Processing
+
+## 349. Stock Prediction Window
+
+## 350. Image Pixel Transformation
+
+## 351. Face Detection Matrix Analysis
+
+## 352. Heatmap Analysis
+
+## 353. DNA Sequence Matching
+
+## 354. Genome Pattern Search
+
+## 355. Music Recommendation Engine
+
+## 356. Video Streaming Buffer Management
+
+## 357. Search Engine Ranking System
+
+## 358. Ride Sharing Optimization
+
+## 359. Food Delivery Route Optimization
+
+## 360. E-commerce Recommendation Arrays
+
+## 361. Banking Fraud Pattern Detection
+
+## 362. ATM Cash Distribution Optimization
+
+## 363. Airport Runway Scheduling
+
+## 364. Railway Seat Allocation
+
+## 365. Hospital Bed Allocation
+
+## 366. Smart Traffic Signal Optimization
+
+## 367. Weather Prediction Data Analysis
+
+## 368. Cricket Score Analytics
+
+## 369. Fantasy League Ranking System
+
+## 370. Real-Time Chat Message Queue
+
+## 371. Social Media Feed Ranking
+
+## 372. Video Frame Compression
+
+## 373. AI Dataset Cleaning
+
+## 374. ML Feature Engineering Arrays
+
+## 375. Big Data Window Aggregation
+
+## 376. Distributed Log Processing
+
+## 377. Cloud Resource Scheduling
+
+## 378. Blockchain Transaction Analysis
+
+## 379. Cybersecurity Threat Detection
+
+## 380. Recommendation Feed Personalization
+
+## 381. Search Autocomplete Ranking
+
+## 382. Autonomous Vehicle Sensor Arrays
+
+## 383. Drone Path Optimization
+
+## 384. Satellite Image Processing
+
+## 385. Medical Scan Matrix Analysis
+
+## 386. Financial Risk Modeling
+
+## 387. Insurance Claim Pattern Detection
+
+## 388. AI Attention Matrix Problem
+
+## 389. Deep Learning Tensor Operations
+
+## 390. GPU Matrix Multiplication
+
+## 391. Sparse Matrix Compression
+
+## 392. High Frequency Trading Arrays
+
+## 393. Quantum Computing Matrix Simulation
+
+## 394. Compiler Optimization Arrays
+
+## 395. Database Query Optimization
+
+## 396. Search Ranking Optimization
+
+## 397. Cloud Storage Fragmentation
+
+## 398. Distributed Cache Synchronization
+
+## 399. Large Scale Event Processing
+
+## 400. Real-Time Operating System Scheduling
+
+---
+
+# Most Asked Array Interview Questions in IT Companies
+
+## Frequently Asked in Companies Like:
+
+* entity["company","Google"]
+* entity["company","Amazon"]
+* entity["company","Microsoft"]
+* entity["company","Meta"]
+* entity["company","Adobe"]
+* entity["company","Oracle"]
+* entity["company","Infosys"]
+* entity["company","TCS"]
+* entity["company","Wipro"]
+* entity["company","Accenture"]
+
+### Top Important Problems
+
+1. Two Sum
+2. Kadane Algorithm
+3. Merge Intervals
+4. Trapping Rain Water
+5. Product of Array Except Self
+6. Sliding Window Maximum
+7. Longest Consecutive Sequence
+8. Maximum Product Subarray
+9. Search in Rotated Sorted Array
+10. Median of Two Sorted Arrays
+11. Next Greater Element
+12. Largest Rectangle in Histogram
+13. Count Inversions
+14. Find Duplicate Number
+15. Subarray Sum Equals K
+16. Longest Increasing Subsequence
+17. Set Matrix Zeroes
+18. Rotate Image
+19. Spiral Matrix
+20. Dutch National Flag Problem
+
+---
+
+# Recommended Learning Order
+
+## Beginner
+
+* Traversal
+* Searching
+* Sorting
+* Rotation
+* Frequency Count
+
+## Intermediate
+
+* Prefix Sum
+* Sliding Window
+* Two Pointer
+* Hashing
+* Matrix
+
+## Advanced
+
+* Binary Search on Answer
+* Heap
+* Greedy
+* Dynamic Programming
+* Segment Tree
+
+## Expert
+
+* Graph + Array
+* Sweep Line
+* Advanced DP
+* Real-time Systems
+* System Design Problems
+
+---
+
+# Final Advice for Interviews
+
+1. Start with easy traversal problems.
+2. Master Sliding Window and Two Pointer.
+3. Practice Prefix Sum and Hashing daily.
+4. Solve Binary Search on Answer problems.
+5. Learn Kadane Algorithm deeply.
+6. Practice Matrix and Interval questions.
+7. Understand Time Complexity.
+8. Learn optimal approach after brute force.
+9. Practice real interview problems regularly.
+10. Focus on pattern recognition.
+
+---
+
+# Important Array Patterns
+
+* Sliding Window
+* Two Pointer
+* Prefix Sum
+* Suffix Sum
+* Hashing
+* Binary Search
+* Greedy
+* Dynamic Programming
+* Heap
+* Stack
+* Queue
+* Segment Tree
+* Trie
+* Graph
+* Matrix Traversal
+
+---
+
+# Time Complexity Cheat Sheet
+
+| Operation          | Complexity |
+| ------------------ | ---------- |
+| Traversal          | O(n)       |
+| Binary Search      | O(log n)   |
+| Sorting            | O(n log n) |
+| Nested Loop        | O(n²)      |
+| HashMap Access     | O(1)       |
+| Heap Insert/Delete | O(log n)   |
+| Segment Tree Query | O(log n)   |
+
+---
+
+# Conclusion
+
+These 400 questions cover:
+
+* College Interview Preparation
+* Product Based Companies
+* Service Based Companies
+* FAANG Level Interviews
+* Competitive Programming
+* Real-World Problem Solving
+
+If you master these questions and patterns, you can solve most array interview problems asked in software companies.

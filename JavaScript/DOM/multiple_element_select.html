@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li class="a1">Item :== 1</li>
+        <li class="a1">Item :== 2</li>
+        <li class="a1">Item :== 3</li>
+        <li class="a1">Item :== 4</li>
+    </ol>    
+    <p id="frist"></p>
+</body>
+<script>
+    let value=document.getElementsByClassName("a1");
+    value[0].innerHTML="PHP";
+    value[1].innerHTML="css";
+    value[2].innerHTML="js";
+    value[3].innerHTML="HTML";
+
+    document.getElementById("frist").innerHTML=`Value Of Class.... ${value.length}`;
+
+
+</script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h_1">Show</h1>
+
+    <button id="dat">Date</button>
+    
+    <button id="year">Year</button>
+
+    <button id="mon">Month</button>
+
+    <button id="hou">Hours</button>
+
+    <button id="todate">Date</button>
+
+</body>
+<script>
+
+  let obj1=new Date();
+ 
+
+ let dat=document.getElementById("dat");
+ let year=document.getElementById("year");
+ let h_1=document.getElementById("h_1");
+ let mon=document.getElementById("mon");
+ let hou=document.getElementById("hou");
+ let todate=document.getElementById("todate");
+
+
+ dat.addEventListener('click',function(){
+       h_1.innerHTML=obj1;
+ })
+
+ year.addEventListener('click',function(){
+    h_1.innerHTML=obj1.getFullYear();
+ })
+
+ mon.addEventListener('click',function(){
+    let month_array=["January","February","March","April","May","June","July","August","September","Octaber","November","December"];
+    let number=obj1.getMonth();
+    h_1.innerHTML=month_array[number];
+ })
+
+ hou.addEventListener('click',function(){
+    h_1.innerHTML=obj1.getHours();
+ })
+
+ todate.addEventListener('click',function(){
+    h_1.innerHTML=obj1.getDate();
+
+ })
+ 
+</script>
+</html>

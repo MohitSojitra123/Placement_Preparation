@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+    <button id="mod_btn">Change Mode..</button>
+</body>
+<script>
+    let value_1=document.getElementById("mod_btn");
+    let test="light";
+
+    value_1.addEventListener("click",function(){
+        if(test === "light"){
+           console.log("Mode Is Light...");
+           test="dark";
+           document.body.style.backgroundColor="black";
+        }else if(test === "dark"){
+          console.log("Mode Is Dark");
+          test="light";
+          document.body.style.backgroundColor="white";
+        }
+    })
+</script>
+</html>
