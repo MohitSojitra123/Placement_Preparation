@@ -28,18 +28,7 @@ Candy distribution problem.
 
 LINKEDLIST QUESTIONS (51–100)
 Basic Level
-Create singly linked list.
-Insert node at beginning.
-Insert node at end.
-Insert node at specific position.
-Delete first node.
-Delete last node.
-Delete node by value.
-Search element in linked list.
-Count total nodes.
-Reverse linked list.
 Find middle node.
-Print linked list in reverse.
 Detect loop in linked list.
 Find length of loop.
 Remove duplicates from sorted linked list.
@@ -179,11 +168,6 @@ Food delivery tracker.
 Ride sharing matching system.
 E-commerce product search.
 Microservice session storage.
-
-
-
-
-
 
 
 
