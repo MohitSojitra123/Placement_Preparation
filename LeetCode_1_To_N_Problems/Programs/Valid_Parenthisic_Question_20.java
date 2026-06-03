@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Valid_Parenthisic {
+public class Valid_Parenthisic_Question_20{
 
     public static boolean isValid(String s) {
 
