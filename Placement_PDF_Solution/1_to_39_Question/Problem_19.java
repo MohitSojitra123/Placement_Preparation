@@ -14,7 +14,7 @@
 
 import java.util.Arrays;
 
-public class Problem19 {
+public class Problem_19 {
 
     static int minCoins(int[] coins, int sum) {
 
