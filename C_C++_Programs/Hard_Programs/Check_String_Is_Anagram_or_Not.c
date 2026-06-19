@@ -54,7 +54,6 @@ int main(){
 
 
     for(int i=0; i<str2_length-1; i++){
-
         for(int j=0; j<str2_length-i-1; j++){
 
             if(str2[j] > str2[j+1]){

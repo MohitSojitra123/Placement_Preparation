@@ -7,6 +7,7 @@ int main(){
 
      printf("ptrch -> %d \n",ptrch);
      printf("ptrch* -> %c \n",*ptrch);
+     printf("ch& -> %d \n",&ch);
 
      int a=101;
      int *ptra=&a;

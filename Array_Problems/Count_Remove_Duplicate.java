@@ -50,6 +50,7 @@ public class Count_Remove_Duplicate {
                            array[k]=array[k+1];
                        }
                        array_size--;
+                       j--;
                  }
             }
         }

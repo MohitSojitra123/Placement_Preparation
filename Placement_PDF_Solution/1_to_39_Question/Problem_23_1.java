@@ -1,4 +1,4 @@
-// public 23 Given  an  integer  n,  find  whether  the  number  is  Palindrome  or  not.  A  number  is  a 
+// 23 Given  an  integer  n,  find  whether  the  number  is  Palindrome  or  not.  A  number  is  a 
 // Palindrome if it remains the same when its digits are reversed.  
 // Input: n = 12321 
 // Output: Yes 

@@ -1,3 +1,13 @@
+// 6 Given  the  principal  amount  (P),  rate  of  interest  per  annum  (R),  and  loan  tenure  in 
+// months (N), write a program to calculate the EMI (Equated Monthly Installment) for 
+// a loan. 
+ 
+// Input : Enter principal amount (P): 500000 
+//              Enter annual interest rate (R): 7.5 
+//              Enter loan tenure in months (N): 60 
+// Output: The EMI per month is: 10013.05
+
+
 import  java.util.Scanner;
 
 public class Problem_6 {

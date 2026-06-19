@@ -31,6 +31,7 @@ public class Delete_duplicate_ele {
                       array[k]=array[k+1];
                    }
                    array_size--;
+                   j--;
             }
         }
     }

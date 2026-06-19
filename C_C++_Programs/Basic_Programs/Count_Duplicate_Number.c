@@ -29,7 +29,7 @@ int main(){
              if(count>1){
                   printf("%c -> %d \n ",str[i] ,count);
              }
-
+             
           }
       }
 

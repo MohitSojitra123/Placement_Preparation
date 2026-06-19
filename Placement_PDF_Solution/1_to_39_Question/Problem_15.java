@@ -1,4 +1,11 @@
-
+// Find the length of the maximum number of consecutive numbers jumbled up in an 
+// array.  
+// Input: arr[] = {1, 94, 93, 1000, 5, 92, 78}; 
+// Output : 3  
+// Explanation: The largest set of consecutive elements is 92, 93, 94.  
+// Input: arr[] = {1, 5, 92, 4, 78, 6, 7}; 
+// Output: 4  
+// Explanation: The largest set of consecutive elements is 4, 5, 6, 7. 
 
 import java.util.Arrays;
 

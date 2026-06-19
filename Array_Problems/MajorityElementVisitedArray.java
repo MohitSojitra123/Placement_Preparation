@@ -32,7 +32,7 @@ public class MajorityElementVisitedArray {
                 }
             }
 
-            if (count > n / 2) {
+            if (count >= n / 2) {
 
                 majorityElement = arr[i];
                 break;
