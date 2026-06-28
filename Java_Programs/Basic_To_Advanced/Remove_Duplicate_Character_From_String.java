@@ -14,7 +14,6 @@ public class Remove_Duplicate_Character_From_String {
         int size = str_arr.length;
 
         for (int i = 0; i < size; i++) {
-
             for (int j = i + 1; j < size; j++) {
 
                 if (str_arr[i] == str_arr[j]) {

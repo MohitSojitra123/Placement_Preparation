@@ -1,3 +1,6 @@
+// Write  a  program  that  counts  number  of  characters,  words,  and  lines  in  a  file.  Use 
+// exceptions to check whether the file that is read exists or not. [A] 
+
 import java.io.*;
 
 public class Program_1 {

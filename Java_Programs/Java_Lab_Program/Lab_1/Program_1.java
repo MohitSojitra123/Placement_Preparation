@@ -1,4 +1,4 @@
-// WAP to find a Factor of a given number.[
+// WAP to find a Factor of a given number.
 
 import java.util.Scanner;
 

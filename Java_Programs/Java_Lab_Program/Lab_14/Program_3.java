@@ -1,3 +1,6 @@
+// Write an application that reads a file and counts the number of occurrences of digit 5. 
+// Supply the file name as a command-line argument. [B]
+
 import java.io.*;
 
 public class Program_3 {

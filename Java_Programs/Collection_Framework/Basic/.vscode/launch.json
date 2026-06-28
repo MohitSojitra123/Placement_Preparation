@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "JewelsAndStones",
+      "request": "launch",
+      "mainClass": "HashSet.JewelsAndStones",
+      "projectName": "Basic_76221ab"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

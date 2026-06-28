@@ -1,3 +1,5 @@
+// WAP to sort an Array using selection sort. 
+
 public class Question_22 {
     public static void main(String[] args) {
 

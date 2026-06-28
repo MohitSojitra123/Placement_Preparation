@@ -7,20 +7,17 @@ public class Program_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input: two numbers
         System.out.print("Enter first number: ");
         double num1 = sc.nextDouble();
 
         System.out.print("Enter second number: ");
         double num2 = sc.nextDouble();
 
-        // Input: operation
         System.out.print("Enter an operator (+, -, *, /, %): ");
         String op = sc.next();
 
         double result;
 
-        // Perform operation based on user input
         switch (op) {
             case "+":
                 result = num1 + num2;

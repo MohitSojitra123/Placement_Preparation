@@ -22,6 +22,7 @@ public class Sunny_Number {
 
            int sqrt_user=(int)Math.sqrt(next_user);
 
+
            System.out.println("Next User Number => "+next_user);
            System.out.println("sqrt Number => "+sqrt_user);
 

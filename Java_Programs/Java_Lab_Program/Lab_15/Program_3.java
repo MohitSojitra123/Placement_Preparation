@@ -1,3 +1,6 @@
+// Write a program to demonstrate the use of ArrayList to store and display List of Student 
+// class with StudentID, StudentName, StudentRollNo and StudentSPI. [C] 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

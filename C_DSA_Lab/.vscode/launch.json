@@ -6,6 +6,13 @@
       "name": "Program_6_2",
       "request": "launch",
       "mainClass": "Program_6_2",
+      "projectName": "C_DSA_Lab_bd392a38"
+    },
+    {
+      "type": "java",
+      "name": "Program_6_2",
+      "request": "launch",
+      "mainClass": "Program_6_2",
       "projectName": "C_DSA_Lab_2aa6ee9e"
     },
     {

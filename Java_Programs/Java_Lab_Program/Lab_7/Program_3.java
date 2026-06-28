@@ -13,7 +13,6 @@ public class Program_3 {
             System.out.print("Enter a sentence (or type 'quit' to exit): ");
             String sentence = sc.nextLine();
 
-            // Stop condition
             if (sentence.equalsIgnoreCase("quit")) {
                 break;
             }
@@ -34,7 +33,6 @@ public class Program_3 {
                 }
             }
 
-            // Display counts for current sentence
             System.out.println("Vowel counts in this sentence:");
             System.out.println("A: " + countA + ", E: " + countE + ", I: " + countI + ", O: " + countO + ", U: " + countU);
 
@@ -47,7 +45,7 @@ public class Program_3 {
             System.out.println("-----------------------------------");
         }
 
-        // Display total vowel counts
+
         System.out.println("\nTotal vowel counts for all sentences:");
         System.out.println("A: " + totalA + ", E: " + totalE + ", I: " + totalI + ", O: " + totalO + ", U: " + totalU);
 

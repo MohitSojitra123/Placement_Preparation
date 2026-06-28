@@ -1,3 +1,6 @@
+// Write a program to replace all “word1” by “word2” from a file1, and output is written 
+// to file2 file and display the no. of replacement. [A] 
+
 import java.io.*;
 
 public class Program_2 {

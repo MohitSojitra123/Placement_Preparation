@@ -1,3 +1,6 @@
+// Refine the student manager program to manipulate the student information from files 
+// by using the BufferedReader and BufferedWriter. [A]
+
 import java.io.*;
 import java.util.*;
 

@@ -4,33 +4,24 @@ public class Smith_Number {
 
     // Function to calculate digit sum
     static int digitSum(int num) {
-
         int sum = 0;
-
         while(num > 0) {
-
             sum += num % 10;
-
             num /= 10;
         }
-
         return sum;
     }
 
     // Function to check prime
     static boolean isPrime(int num) {
-
         if(num < 2) {
             return false;
         }
-
         for(int i = 2; i <= Math.sqrt(num); i++) {
-
             if(num % i == 0) {
                 return false;
             }
         }
-
         return true;
     }
 

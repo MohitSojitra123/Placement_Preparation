@@ -7,7 +7,6 @@
 
 
 class InSufficientFundException extends Exception {
-
     public InSufficientFundException(String message) {
         super(message);
     }
@@ -15,7 +14,6 @@ class InSufficientFundException extends Exception {
 
 
 class Account {
-
     double balance;
     double minimumBalance = 1000;
 
@@ -49,11 +47,9 @@ class Account {
 
 
 public class Program_2 {
-
     public static void main(String[] args) {
 
         Account a1 = new Account(5000);
-
         a1.deposit(2000);
 
         try {

@@ -14,5 +14,9 @@ class Extra_1{
     public static void main(String[] args) {
             A a1=new A();
             a1.show1();
+
+            in1 a2=new A();
+            a2.show1();
+
     }
 }

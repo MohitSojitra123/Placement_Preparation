@@ -1,3 +1,7 @@
+// Write  a  program to  check that whether  the  name  given  from  command  line  is  file  or 
+// not? If it is a file then print the size of file and if it is directory then it should display the 
+// name of all files in it. [B] 
+
 import java.io.File;
 
 public class Program_2 {

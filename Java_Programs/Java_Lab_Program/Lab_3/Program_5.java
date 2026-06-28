@@ -8,7 +8,7 @@ public class Program_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input: three numbers
+
         System.out.print("Enter first number: ");
         double num1 = sc.nextDouble();
 
@@ -20,7 +20,7 @@ public class Program_5 {
 
         double largest;
 
-        // Logic to find the largest number
+
         if (num1 >= num2 && num1 >= num3) {
             largest = num1;
         } else if (num2 >= num1 && num2 >= num3) {

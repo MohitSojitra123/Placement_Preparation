@@ -1,5 +1,5 @@
 // Create class BankDemo and Account(accNum:int, accType:String, balance: double).
-// Implement getter() and setter() method to assign and display data for 3 students.[
+// Implement getter() and setter() method to assign and display data for 3 students.
 
 class BankDemo{
 
