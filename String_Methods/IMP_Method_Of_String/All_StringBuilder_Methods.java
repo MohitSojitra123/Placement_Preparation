@@ -636,12 +636,6 @@ public class All_StringBuilder_Methods {
 
 
 
-
-
-
-
-
-
         // =========================================================================
         // 19. compareTo()
         // =========================================================================
@@ -668,12 +662,6 @@ public class All_StringBuilder_Methods {
         System.out.println(
                 a.compareTo(b)
         );
-
-
-
-
-
-
 
 
 
