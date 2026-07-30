@@ -1,9 +1,4 @@
-## 35. Find Peak Element
 
-* Difficulty: Easy
-* Concept: Comparison
-* Real World: Traffic spike detection.
-* Explanation: Element greater than neighbors.
 
 ## 36. Find Leaders in Array
 
