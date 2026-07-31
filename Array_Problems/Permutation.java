@@ -19,10 +19,9 @@ public class Permutation {
         }
     }
 
-
     public static void main(String[] args) {
         
-          String str="mohit";
+          String str="Mohit";
 
 
           Permutation.find_Permutation(str, "");

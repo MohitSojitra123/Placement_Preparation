@@ -1,26 +1,3 @@
-
-
-## 36. Find Leaders in Array
-
-* Difficulty: Easy
-* Concept: Traversal from Right
-* Real World: Highest future stock.
-* Explanation: Greater than all right elements.
-
-## 37. Reverse Every K Elements
-
-* Difficulty: Easy
-* Concept: Chunk Processing
-* Real World: Data batching.
-* Explanation: Reverse subarrays.
-
-## 38. Find Majority Element
-
-* Difficulty: Medium
-* Concept: Boyer-Moore Voting
-* Real World: Most voted candidate.
-* Explanation: Element appearing more than n/2.
-
 ## 39. Check if Two Arrays are Equal
 
 * Difficulty: Easy
@@ -969,25 +946,6 @@
 10. Focus on pattern recognition.
 
 ---
-
-# Important Array Patterns
-
-* Sliding Window
-* Two Pointer
-* Prefix Sum
-* Suffix Sum
-* Hashing
-* Binary Search
-* Greedy
-* Dynamic Programming
-* Heap
-* Stack
-* Queue
-* Segment Tree
-* Trie
-* Graph
-* Matrix Traversal
-
 ---
 
 # Time Complexity Cheat Sheet
@@ -1002,17 +960,3 @@
 | Heap Insert/Delete | O(log n)   |
 | Segment Tree Query | O(log n)   |
 
----
-
-# Conclusion
-
-These 400 questions cover:
-
-* College Interview Preparation
-* Product Based Companies
-* Service Based Companies
-* FAANG Level Interviews
-* Competitive Programming
-* Real-World Problem Solving
-
-If you master these questions and patterns, you can solve most array interview problems asked in software companies.
