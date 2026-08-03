@@ -1,4 +1,4 @@
-public class Ugly_Number_Question_263 {
+public class Ugly_Number_Question_26_1 {
     public static boolean isUgly(int n) {
 
         if (n <= 0) {

@@ -1,23 +1,5 @@
-## 39. Check if Two Arrays are Equal
 
-* Difficulty: Easy
-* Concept: Comparison
-* Real World: File verification.
-* Explanation: Compare all elements.
 
-## 40. Print Alternate Elements
-
-* Difficulty: Easy
-* Concept: Index Traversal
-* Real World: Alternate frame sampling.
-* Explanation: Print index 0,2,4...
-
-## 41. Replace Each Element with Greatest on Right
-
-* Difficulty: Medium
-* Concept: Reverse Traversal
-* Real World: Future profit estimation.
-* Explanation: Maintain maximum from right.
 
 ## 42. Find Equilibrium Index
 
