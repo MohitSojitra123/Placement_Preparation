@@ -1,20 +1,3 @@
-
-
-
-## 42. Find Equilibrium Index
-
-* Difficulty: Medium
-* Concept: Prefix Sum
-* Real World: Balanced load distribution.
-* Explanation: Left sum equals right sum.
-
-## 43. Find Smallest and Largest Together
-
-* Difficulty: Easy
-* Concept: Pair Comparison
-* Real World: Min/max analytics.
-* Explanation: Optimize comparisons.
-
 ## 44. Cyclically Rotate Array by One
 
 * Difficulty: Easy
