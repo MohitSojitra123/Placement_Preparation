@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Pattern_19",
+      "request": "launch",
+      "mainClass": "Pattern_19",
+      "projectName": "Space_Pattern_b5c1931a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
