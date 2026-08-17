@@ -27,7 +27,7 @@ class Solution {
     }
 }
 
-public class Same_Vowel_Contain_Question_1704 {
+public class Same_Vowel_Contain_Question_1704_1 {
     public static void main(String[] args) {
 
         Solution sol = new Solution();
