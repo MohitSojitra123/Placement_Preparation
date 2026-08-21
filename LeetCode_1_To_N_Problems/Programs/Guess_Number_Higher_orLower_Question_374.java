@@ -1,4 +1,4 @@
-public class Main {
+public class Guess_Number_Higher_orLower_Question_374 {
 
     // Static input
     static int pickedNumber = 6;
