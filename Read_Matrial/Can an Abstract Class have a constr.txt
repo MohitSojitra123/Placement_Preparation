@@ -22,5 +22,11 @@ d d1=new d1()
 
 d.display()  
 
+Can a Constructor be private? explain with an Use Of Private Constructor
+ What happens if a parent class has ONLY parameterized constructors, and a child class extends it?
+1. Why is the main() method declared static in Java?
+
+ Does declaring a class final automatically make all its methods final?
+
 
 
