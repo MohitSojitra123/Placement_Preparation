@@ -1,0 +1,26 @@
+ Can an Abstract Class have a constructor in Java?
+Why does Java NOT support Multiple Inheritance with classes?
+Can we override a static method in Java? when Define Same Method to subclass and superclass in static method then ??
+Can Method Overloading be done by changing ONLY the return type?
+multilevel Intertance (Which Method Is Called )
+class a{
+   display("a")
+}
+class b extend a{
+    display("b")
+}
+
+class c extend b{
+   display("c")
+}
+
+class d extend c{
+     
+}
+
+d d1=new d1()
+
+d.display()  
+
+
+
