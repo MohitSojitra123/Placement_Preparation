@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=MohitSojitra123&color=2E97F7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+<!-- <img src="https://komarev.com/ghpvc/?username=MohitSojitra123&color=2E97F7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/> -->
 <a href="https://leetcode.com/u/Wiq3FwFtLi/"><img src="https://img.shields.io/badge/LEETCODE-Wiq3FwFtLi-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
 <a href="https://github.com/MohitSojitra123"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://linkedin.com/in/MohitSojitra123"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -17,18 +17,43 @@
 
 ## 🧭 Quick Navigation
 
+
+
 <div align="center">
 
-[![About](https://img.shields.io/badge/📍_About-2E97F7?style=flat-square)](#-about-me) &nbsp;
-[![Stack](https://img.shields.io/badge/🛠️_Tech_Stack-2E97F7?style=flat-square)](#️-tech-stack) &nbsp;
-[![Skills](https://img.shields.io/badge/🧠_Skills-2E97F7?style=flat-square)](#-core-skills) &nbsp;
-[![Education](https://img.shields.io/badge/🎓_Education-2E97F7?style=flat-square)](#-education) &nbsp;
-[![Projects](https://img.shields.io/badge/💼_Projects-2E97F7?style=flat-square)](#-featured-projects) &nbsp;
-[![LeetCode](https://img.shields.io/badge/🧩_LeetCode-2E97F7?style=flat-square)](#-leetcode-journey) &nbsp;
-[![Stats](https://img.shields.io/badge/📊_GitHub_Stats-2E97F7?style=flat-square)](#-github-stats) &nbsp;
-[![Contact](https://img.shields.io/badge/📬_Contact-2E97F7?style=flat-square)](#-connect-with-me)
+
+<a href="#-about-me">
+  <img src="https://img.shields.io/badge/📍%20About-111827?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+<a href="#️-tech-stack">
+  <img src="https://img.shields.io/badge/🛠️%20Tech%20Stack-1F2937?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+<a href="#-core-skills">
+  <img src="https://img.shields.io/badge/🧠%20Skills-374151?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+<a href="#-education">
+  <img src="https://img.shields.io/badge/🎓%20Education-4B5563?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+
+<br/>
+
+<a href="#-featured-projects">
+  <img src="https://img.shields.io/badge/💼%20Projects-2563EB?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+<a href="#-leetcode-journey">
+  <img src="https://img.shields.io/badge/🧩%20LeetCode-F59E0B?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+<a href="#-github-stats">
+  <img src="https://img.shields.io/badge/📊%20GitHub%20Stats-7C3AED?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
+<a href="#-connect-with-me">
+  <img src="https://img.shields.io/badge/📬%20Contact-059669?style=for-the-badge&logoColor=white&scale=1.25" />
+</a>
 
 </div>
+
+
+
 
 ---
 
@@ -58,15 +83,15 @@
 
 <br/><br/>
 
-**Backend & Programming**
+**Backend & Database , Tools**
 <br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,java,python&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,git,github,vscode&theme=dark" />
 
 <br/><br/>
 
-**Database & Tools**
+**Programming Language**
 <br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,python&theme=dark" />
 
 </div>
 
