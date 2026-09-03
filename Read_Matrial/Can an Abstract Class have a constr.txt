@@ -1,6 +1,1 @@
 
-used in throw and throws in custome exception  --> types 
-checkend Exception and unchecked exception 
-2. If a return statement is placed inside a try block, does the finally block still run?
-Threading java 
-
