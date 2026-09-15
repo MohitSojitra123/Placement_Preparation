@@ -164,3 +164,65 @@ FROM Employees E
 JOIN Departments D
     ON E.DepartmentId = D.DepartmentId
 GROUP BY D.DepartmentName , E.DepartmentId;
+
+
+-- Find the second-highest salary in each department
+
+
+
+SELECT
+    d.DepartmentId,
+    d.DepartmentName,
+    COUNT(e.EmployeeId) AS EmployeeCount
+FROM Employees e
+INNER JOIN Departments d
+    ON d.DepartmentId = e.DepartmentId
+GROUP BY
+    d.DepartmentId,
+    d.DepartmentName;
+
+
+
+
+
+SELECT
+    DepartmentName,
+    Salary
+FROM
+(
+    SELECT
+        D.DepartmentName,
+        E.Salary,
+        DENSE_RANK() OVER
+        (
+            PARTITION BY E.DepartmentId
+            ORDER BY E.Salary DESC
+        ) AS SalaryRank
+    FROM Employees E
+    JOIN Departments D
+        ON E.DepartmentId = D.DepartmentId
+) AS T
+WHERE SalaryRank = 2
+
+
+--Find employees earning more than their manager
+
+SELECT
+    E.EmployeeName,
+    E.Salary AS EmployeeSalary,
+    M.EmployeeName AS ManagerName,
+    M.Salary AS ManagerSalary
+FROM Employees E
+JOIN Employees M
+    ON E.ManagerId = M.EmployeeId
+WHERE E.Salary > M.Salary;
+
+
+-- Find employees who don't have a manager
+
+SELECT
+    EmployeeId,
+    EmployeeName,
+    Salary
+FROM Employees
+WHERE ManagerId IS NULL;

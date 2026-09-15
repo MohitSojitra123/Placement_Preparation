@@ -1,0 +1,151 @@
+﻿Department
+    |
+    | 1-to-many
+    ↓
+Employee
+    |
+    | many-to-many
+    ↓
+EmployeeProject
+    |
+    ↓
+Project
+
+
+
+CREATE TABLE Department
+(
+    DepartmentId INT PRIMARY KEY,
+    DepartmentName VARCHAR(100) NOT NULL,
+    Location VARCHAR(100)
+);
+
+
+
+CREATE TABLE Employee
+(
+    EmployeeId INT PRIMARY KEY,
+    EmployeeName VARCHAR(100) NOT NULL,
+    Salary DECIMAL(10,2),
+    DepartmentId INT,
+    ManagerId INT NULL,
+
+    FOREIGN KEY (DepartmentId)
+        REFERENCES Department(DepartmentId)
+);
+
+
+
+CREATE TABLE Project
+(
+    ProjectId INT PRIMARY KEY,
+    ProjectName VARCHAR(100) NOT NULL,
+    Budget DECIMAL(12,2),
+    DepartmentId INT,
+
+    FOREIGN KEY (DepartmentId)
+        REFERENCES Department(DepartmentId)
+);
+
+INSERT INTO Department
+VALUES
+(1, 'IT', 'Rajkot'),
+(2, 'HR', 'Ahmedabad'),
+(3, 'Finance', 'Surat'),
+(4, 'Marketing', 'Vadodara'),
+(5, 'Sales', 'Rajkot');
+
+
+INSERT INTO Employee
+VALUES
+(101, 'Rahul', 75000, 1, NULL),
+(102, 'Amit', 60000, 1, 101),
+(103, 'Priya', 55000, 2, NULL),
+(104, 'Neha', 80000, 3, NULL),
+(105, 'Raj', 45000, 4, NULL),
+(106, 'Karan', 70000, 1, 101),
+(107, 'Pooja', 50000, 5, NULL),
+(108, 'Vivek', 90000, 3, 104);
+
+
+INSERT INTO Project
+VALUES
+(201, 'Banking System', 500000, 1),
+(202, 'HR Portal', 200000, 2),
+(203, 'Finance Management', 700000, 3),
+(204, 'Marketing Website', 300000, 4),
+(205, 'E-Commerce', 900000, 1),
+(206, 'Sales Dashboard', 400000, 5);
+
+select * from Employee
+select * from Department
+select * from Project
+
+--Employee with Department
+
+SELECT
+    e.EmployeeName,
+    d.DepartmentName
+FROM Employee e
+INNER JOIN Department d
+    ON e.DepartmentId = d.DepartmentId;
+
+
+-- Employee, Department and Project
+
+SELECT
+    e.EmployeeName,
+    d.DepartmentName,
+    p.ProjectName
+FROM Employee e
+INNER JOIN Department d
+    ON e.DepartmentId = d.DepartmentId
+INNER JOIN Project p
+    ON d.DepartmentId = p.DepartmentId;
+
+
+-- Employees Working in IT Projects
+
+SELECT
+    e.EmployeeName,
+    d.DepartmentName,
+    p.ProjectName
+FROM Employee e
+INNER JOIN Department d
+    ON e.DepartmentId = d.DepartmentId
+INNER JOIN Project p
+    ON d.DepartmentId = p.DepartmentId
+WHERE d.DepartmentName = 'IT';
+
+
+
+
+--Employee Salary and Project Budget
+
+
+SELECT
+    e.EmployeeName,
+    e.Salary,
+    d.DepartmentName,
+    p.ProjectName,
+    p.Budget
+FROM Employee e
+INNER JOIN Department d
+    ON e.DepartmentId = d.DepartmentId
+INNER JOIN Project p
+    ON d.DepartmentId = p.DepartmentId;
+
+
+--Projects in Rajkot
+
+SELECT
+    d.DepartmentName,
+    d.Location,
+    p.ProjectName,
+    p.Budget
+FROM Department d
+INNER JOIN Employee e
+    ON d.DepartmentId = e.DepartmentId
+INNER JOIN Project p
+    ON d.DepartmentId = p.DepartmentId
+WHERE d.Location = 'Rajkot';
