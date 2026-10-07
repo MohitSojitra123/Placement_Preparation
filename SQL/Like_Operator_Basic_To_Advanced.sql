@@ -499,29 +499,3 @@ WHERE Email LIKE '%.%@gmail.com';
 │       │       │          │
 anything dot anything    Gmail
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
