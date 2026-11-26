@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   Name ==> <i id="u_name"></i>
+   <br>
+   <br>
+   <button id="set_name" onclick="call()">Set Name..</button> 
+</body>
+<script>
+     function call(){
+        const val_1=prompt("Enter Your Name...");
+        document.getElementById('u_name').innerHTML = val_1;
+     }
+</script>
+</html>

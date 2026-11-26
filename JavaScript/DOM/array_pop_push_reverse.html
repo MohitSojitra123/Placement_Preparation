@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Frist Array...</h2>
+    <h3>Delete Array Element...</h3>
+
+    <button id="del">POP</button>
+    <button id="add">PUSH</button>
+    <button id="rev">REVERSE</button>
+
+</body>
+
+<script>
+
+  let array = ['car1','car2','car3','car4','car5','car6','car7']
+
+   let h2=document.getElementsByTagName('h2')[0]
+   let h3=document.getElementsByTagName('h3')[0]
+    
+   let del=document.getElementById('del')
+   let add=document.getElementById('add')
+   let rev=document.getElementById('rev')
+
+    h2.innerHTML = array
+
+   
+   del.addEventListener('click',()=>{
+       let pop_ele=array.pop()
+       h3.innerText += pop_ele
+       h2.innerHTML = array
+   })
+
+   add.addEventListener('click',()=>{
+     let add=prompt("Enter Array Element...")
+     array.push(add)
+     h2.innerHTML = array 
+   })
+
+   rev.addEventListener('click',()=>{
+        array.reverse();
+        h2.innerHTML=array ;
+   })
+
+
+
+
+</script>
+
+</html>

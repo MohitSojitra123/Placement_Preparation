@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bd">
+    <p id="id123">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, vitae aliquam officiis perspiciatis, assumenda corrupti velit numquam sed officia similique quasi minus commodi et nemo harum earum tempora dolor beatae?</p>
+    <br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut at molestiae, rerum cum laborum odio laboriosam nostrum perspiciatis unde debitis mollitia suscipit adipisci ex temporibus qui illum corporis officia distinctio?</p>
+</body>
+<script>
+    let id123=document.getElementById('id123').innerHTML;
+
+let body=document.getElementById('bd');
+
+body.innerHTML=id123;
+
+window.print();
+
+document.getElementById('body').innerHTML=body;
+
+</script>
+</html>

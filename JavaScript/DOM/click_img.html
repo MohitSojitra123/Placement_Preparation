@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="asserts/as1.png" width="400px" height="400px" id="img123">
+</body>
+<script>
+    let img123=document.getElementById('img123');
+    console.log(img123);
+
+    img123.addEventListener('click',function(){
+        if(img123.src.match('asserts/as1.png')){
+           img123.src='asserts/as2.png';
+        }
+        else if(img123.src.match('asserts/as2.png'))
+        {
+            img123.src='asserts/as3.png';
+        }
+        else if(img123.src.match('asserts/as3.png'))
+        {
+            img123.src='asserts/as4.png';
+        }
+        else if(img123.src.match('asserts/as4.png')){
+            img123.src='asserts/as1.png';
+        }
+    })
+</script>
+</html>

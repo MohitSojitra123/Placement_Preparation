@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div_1">
+
+    </div>
+</body>
+<script>
+    const h_1=document.createElement('h1');
+    const h_2=document.createElement('h2');
+
+    h_1.innerHTML="This Is H1 Tag...";
+    h_2.innerHTML="This Is H2 Tag...";
+
+    h_1.classList.add('title_123');  //h1 tag add class name
+    h_2.classList.add('title_1234');  //h2 tag add class name
+
+    const div_1=document.getElementById('div_1');
+    
+
+    div_1.appendChild(h_1);
+    h_1.style.backgroundColor="Red";
+
+    h_1.insertAdjacentElement('beforebegin',h_2);
+    // h_1.appendChild(h_2);
+     
+</script>
+</html>

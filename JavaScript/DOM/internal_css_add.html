@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="bt1">Send</button>
+   <br>
+   <br>
+   <button id="bt2">Recive</button>
+   <br>
+   <br>
+   <button id="bt3">Next</button>
+   <br>
+   <br>
+   <!-- old css concate new css in js -->
+   <button id="bt6" style="background-color:aquamarine">Last</button>
+</body>
+<script>
+   
+   //frist Method to change inline css
+
+  let value_1=document.getElementById("bt1");
+  value_1.style.cssText="background-color:red; color:white; height:80px; width:150px";
+
+  //second method to change inline css
+  let value_2=document.getElementById("bt2");
+  value_2.setAttribute("style","color:red;background-color:yellow;width:150px;height:80px")
+
+ //third method
+  let value_3=document.getElementById("bt3");
+  value_3.style.color="red";
+  value_3.style.backgroundColor="blue";
+  value_3.style.width="150px";
+  value_3.style.height="80px";
+
+  //old css add and concate new css
+
+  let value_4=document.getElementById("bt6");
+  value_4.style.cssText += "color:red;width:120px;height:80px; border: 4px solid black;";
+
+
+</script>
+</html>

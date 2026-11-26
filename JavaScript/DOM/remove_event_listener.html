@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1 id="h_1"></h1>
+
+      <button id="btn">Add</button>
+
+      <button id="stop" onclick="stop123()">Stop</button>
+
+
+</body>
+<script>
+    
+    var h_1=document.getElementById("h_1");
+    var btn=document.getElementById("btn");
+    var stop=document.getElementById("stop");
+    let i=0; 
+
+    function incre(){
+        i++;
+        h_1.innerHTML=i;
+    }
+
+    btn.addEventListener('click',incre);
+
+    
+     function stop123(){
+       btn.removeEventListener('click',incre);
+     }
+      
+
+</script>
+</html>

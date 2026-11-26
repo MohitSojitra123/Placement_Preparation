@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./asserts/as1.png" id="img1" alt="" width="300px" height="300px">
+    <h1 id="h_1"></h1>
+</body>
+<script>
+   
+   let img1=document.getElementById('img1');
+   
+
+   setInterval(function(){
+    
+      if(img1.src.match('./asserts/as1.png')){
+       img1.src='./asserts/as2.png';
+      }else if(img1.src.match('./asserts/as2.png')){
+        img1.src='./asserts/as3.png';
+      }else if(img1.src.match('./asserts/as3.png')){
+        img1.src='./asserts/as4.png';
+      }else if(img1.src.match('./asserts/as4.png')){
+        img1.src='./asserts/as1.png';
+}
+  },1000)
+
+</script>
+</html>

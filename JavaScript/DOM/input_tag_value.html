@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="input123">
+
+    <button id="btn">Show</button>
+
+    <h1 id="h_1"></h1>
+</body>
+<script>
+   let input123=document.getElementsByName('input123')[0];
+
+   let btn=document.getElementById('btn');
+
+   let h_1=document.getElementById('h_1');
+
+   btn.addEventListener('click',function(){
+      h_1.innerHTML=input123.value;
+      input123.value=" ";
+   })
+</script>
+</html>

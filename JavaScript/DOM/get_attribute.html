@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cl1" id="abc_1" value="xyz_1">This Is Get Attribute....</div>
+     <br>
+     <br>
+     <div class="cl3" id="abc_3" value="xyz_3">This is Set Attribute....</div>
+</body>
+<script>
+
+  //getattribute.......
+
+  let value_1=document.querySelector("div");
+
+  let value_2=value_1.getAttribute("id");  //access id name
+   console.log("id name is..."+value_2);
+
+   let value_3=value_1.getAttribute("class");
+   console.log("class name is..."+value_3);  //access class name
+
+   let value_4=value_1.getAttribute("value"); 
+   console.log("value name is..."+value_4);  //access value name
+  
+
+   //setattribute.....
+
+     let value1=document.querySelector("#abc_3");
+     value1.setAttribute("class","cl2"); //change class name
+
+     value1.setAttribute("value","xyz_2");  //change value name
+
+     value1.setAttribute("id","abc_2");  //change id name
+
+
+
+</script>
+</html>

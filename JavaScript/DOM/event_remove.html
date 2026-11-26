@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click Me !</button>
+    <button onclick="stop123()">Stop</button>
+</body>
+<script>
+    let btn=document.getElementById('btn');
+
+    function print_data(){
+        alert('Print Something...');
+    }
+
+    btn.addEventListener('click',print_data);
+ 
+   function stop123(){
+      btn.removeEventListener('click',print_data);
+   }
+   
+</script>
+</html>

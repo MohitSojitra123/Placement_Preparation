@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+<body>
+ <h1 class="cl1">heading :== 1</h1>
+ <h1 class="cl2">heading :== 2</h1>
+ <h1 class="cl3">heading :== 3</h1>
+</body>
+<script>
+    let value_1=document.getElementsByClassName('cl1')[0];
+    value_1.addEventListener('click',function(){
+        value_1.style.color="red";
+        value_1.style.backgroundColor="yellow";
+    })
+
+
+   let value_2=document.getElementsByClassName('cl2')[0];
+   value_2.addEventListener('mousemove',function(){
+     value_2.style.color="white";
+     value_2.style.backgroundColor="orange";
+   })
+
+   value_2.addEventListener('mouseleave',function(){
+    value_2.style.color="black";
+    value_2.style.backgroundColor="white";
+   })
+
+//    value_2.addEventListener('mouseenter',function(){
+//           value_2.style.color="white";
+//    })
+
+value_3=document.getElementsByClassName('cl3')[0];
+
+value_3.addEventListener('click',function(){
+    value_3.style.color="red";
+})
+
+</script>
+</html>

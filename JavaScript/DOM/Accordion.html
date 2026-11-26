@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .accordion {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 450px;
+      border: 1px solid #000;
+    }
+
+    .accordion-title {
+      color: #fff;
+      background-color: #dc2b2b;
+      padding: 10px;
+      transition: 1s;
+
+      &:hover {
+        background-color: green;
+      }
+    }
+
+    .accordion-item {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .accordion-content {
+      background-color: #e6d6a4;
+      padding: 10px;
+      display: none;
+    }
+
+    .accordion-item.active .accordion-content{
+        display: block;
+    }
+  </style>
+  <body>
+    <h1>JavaScript Accordion</h1>
+
+    <div class="accordion">
+
+      
+      <div class="accordion-item">
+        <div class="accordion-title">Accordion Title 1</div>
+
+        <div class="accordion-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
+          autem eius expedita accusantium rerum quibusdam vitae inventore
+          distinctio ratione consectetur minus debitis provident eligendi
+          suscipit fugiat accusamus voluptatum culpa aliquid!
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <div class="accordion-title">Accordion Title 2</div>
+
+        <div class="accordion-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
+          autem eius expedita accusantium rerum quibusdam vitae inventore
+          distinctio ratione consectetur minus debitis provident eligendi
+          suscipit fugiat accusamus voluptatum culpa aliquid!
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">Accordion Title 3</div>
+
+        <div class="accordion-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
+          autem eius expedita accusantium rerum quibusdam vitae inventore
+          distinctio ratione consectetur minus debitis provident eligendi
+          suscipit fugiat accusamus voluptatum culpa aliquid!
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">Accordion Title 4</div>
+
+        <div class="accordion-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
+          autem eius expedita accusantium rerum quibusdam vitae inventore
+          distinctio ratione consectetur minus debitis provident eligendi
+          suscipit fugiat accusamus voluptatum culpa aliquid!
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+     
+     const accordionitem=document.querySelectorAll(".accordion-item");
+
+     accordionitem.forEach(item=>{
+        const title = item.querySelector(".accordion-title");
+        const content = item.querySelector(".accordion-content");
+
+        title.addEventListener('click',function(){
+            
+            for(var i=0; i< accordionitem.length; i++){
+                
+                if(accordionitem[i] == item){
+                    item.classList.toggle("active");
+                }else{
+                    accordionitem[i].classList.remove('active')
+                }
+
+            }
+        })
+     })
+
+  </script>
+</html>

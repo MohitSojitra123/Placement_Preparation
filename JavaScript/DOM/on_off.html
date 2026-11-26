@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #bu1{
+        width: 150px;
+        height: 150px;
+         background-color: yellow;
+        border-radius: 50%;
+        border: 4px solid;
+    }
+    button{
+            font-size: 30px;
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+
+</style>
+<body>
+    <div id="bu1">
+
+    </div>
+
+    <button>On - Of..</button>
+
+</body>
+<script>
+   
+   let a=document.getElementById("bu1");
+   let b=document.querySelector("button");
+
+   let count=0;
+
+
+   b.addEventListener("click", function(){
+    if(count == 0){
+         a.style.backgroundColor="red";
+        count=1;
+    }else{
+        a.style.backgroundColor="white";
+        count=0;
+    }
+
+   })
+
+</script>
+</html>

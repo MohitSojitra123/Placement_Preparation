@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="fdiv" style="background-color: aqua; padding: 2rem;">
+        Frist Div
+
+        <p id="fpara" style="background-color:antiquewhite; padding: 1rem;"> frist para </p>
+
+        <div id="sdiv" style="background-color:violet; padding: 1.2rem;" >
+           Second Div
+           <p id="spara" style="background-color:cadetblue; padding: 0.8rem;"> Second Para </p>
+        </div>
+
+
+    </div>
+    <script>
+        let s_para=document.getElementById("spara");
+
+        s_para.style.backgroundColor="blue";
+
+
+        //multiple css properties accesss....
+
+        let sdiv=document.getElementById("sdiv");
+
+        sdiv.style.cssText="background-color:black; color:red ;padding: 0.5rem";
+
+
+        let fdiv=document.querySelector("#fdiv");
+        console.log(fdiv);
+        fdiv.setAttribute("class","my_class");
+    </script>
+</body>
+</html>

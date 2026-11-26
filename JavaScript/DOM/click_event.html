@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1">Click Me !</button>
+
+    <button id="btn2" onclick="alert('ok button is click...')">Ok ! </button>
+
+    <button id="btn3" onclick="write_1()">Write...</button>
+    
+</body>
+<script>
+
+   //frist Method...
+
+   let value_1=document.getElementById("btn1");
+
+   value_1.addEventListener("click",function(){   //event Listener....
+    alert("Button Is Clicked.....");
+   })
+
+   function write_1(){
+    for(let i=0; i<=20; i++){
+        document.write(i +") Write Text<br>");
+    }
+   }
+
+
+</script>
+</html>

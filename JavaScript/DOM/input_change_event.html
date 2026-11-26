@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="abc">
+</body>
+<script>
+   let value_1=document.getElementById("abc");
+
+   //focus
+    
+   value_1.addEventListener("focus",function(){
+    value_1.style.backgroundColor="yellow";
+   })
+
+
+   //blue
+   value_1.addEventListener("blur",function(){
+    value_1.style.backgroundColor="red";
+   })
+
+   //change...
+   value_1.addEventListener("change",function(){
+    console.log(this.value);
+   });
+
+
+
+//    input
+//    value_1.addEventListener("input",function(){
+//     console.log(this.value);
+//    });
+
+   
+
+</script>
+</html>

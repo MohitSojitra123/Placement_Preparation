@@ -1,0 +1,45 @@
+// Move all negative elements to beginning.
+
+import java.util.Scanner;
+
+public class Negative_Element_Left_Side_1 {
+    public static void main(String[] args) {
+          Scanner sc=new Scanner(System.in);
+
+         int array_size;
+
+         System.out.println("Enter All Nagative Element In Left Side (beginning...)");
+         array_size=sc.nextInt();
+
+         int array[]=new int[array_size];
+
+         for(int i=0; i<array_size; i++){
+            System.out.println("Enter Array Element : ");
+            array[i]=sc.nextInt();
+         }
+
+         System.out.println("\n--------------------------\n");
+         for(int i=0; i<array_size; i++){
+            System.out.print(array[i]+" ");
+         }
+         System.out.println("\n--------------------------\n");
+
+         for(int i=0; i<array_size; i++){
+                    for(int j=i+1; j<array_size; j++){
+                        if(array[i]>array[j]){
+                            int temp=array[i];
+                            array[i]=array[j];
+                            array[j]=temp;
+                        }
+                    }
+         }
+
+         
+         System.out.println("\n--------------------------\n");
+         for(int i=0; i<array_size; i++){
+            System.out.print(array[i]+" ");
+         }
+         System.out.println("\n--------------------------\n");
+
+    }
+}

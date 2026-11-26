@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="frist"> This Is Apple...</p>
+   <p class="thired"> This Is Banana...</p>
+   <p class="thired"> This Is Orange...</p>
+
+   <h1 class="a1">Where</h1>
+   <h1 class="a1">who</h1>
+   <h1 class="a1">whose</h1>
+   
+   <h1>what</h1>
+</body>
+<script>
+    document.querySelector("p#frist").innerHTML="Value Is Changed.....";
+
+   let value= document.querySelector("p.thired");
+   value.innerHTML="abc";
+
+   let change=document.querySelectorAll("h1.a1");
+   change[0].innerHTML="aaa";
+   change[1].innerHTML="bbb";
+   change[2].innerHTML="ccc";
+
+   
+   change[3].innerHTML="www";
+
+</script>
+</html>

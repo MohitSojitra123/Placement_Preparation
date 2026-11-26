@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click Me !</button>
+</body>
+<script>
+    // addEventListener(event,function,useCapture)
+    // useCapture ==> true false  event bubbling event capturing
+
+    let btn1=document.getElementById("btn");
+
+    btn1.addEventListener("click",function(abc){
+        console.log("Working Properly...")
+        console.log(abc.type)
+    })
+
+</script>
+</html>

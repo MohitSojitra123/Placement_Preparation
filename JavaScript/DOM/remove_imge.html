@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 150px;
+        height: 150px;
+    }
+</style>
+<body>
+    <div id="image">
+<ol>
+    <li>
+        <img src="asserts/as1.png">
+    </li>
+    <li>
+        <img src="asserts/as2.png">
+    </li>
+    <li>
+        <img src="asserts/as3.png">
+    </li>
+    <li>
+        <img src="asserts/as4.png">
+    </li>
+    <li>
+        <img src="asserts/as5.png">
+    </li>
+</ol>
+</div>
+</body>
+<script>
+     const abc=document.querySelector("#image").addEventListener('click',function(e){
+       if(e.target.tagName === 'IMG'){  //condition recition is ul click all button is click
+            console.log(e.target.tagName);
+     const re_item=e.target.parentNode;
+     re_item.remove();
+       }
+     })
+</script>
+</html>

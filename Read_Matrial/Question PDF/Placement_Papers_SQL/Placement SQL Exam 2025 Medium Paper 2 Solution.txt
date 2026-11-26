@@ -1,0 +1,81 @@
+1.	List customers who have never placed any order.
+SELECT c.*
+FROM Customers c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+WHERE o.OrderID IS NULL;
+
+2.	List products ordered by more than 5 different customers.
+SELECT ProductID
+FROM Orders
+GROUP BY ProductID
+HAVING COUNT(DISTINCT CustomerID) > 5;
+
+3.	List customers whose first order was placed in 2024.
+SELECT CustomerID
+FROM (
+    SELECT CustomerID, MIN(OrderDate) AS FirstOrderDate
+    FROM Orders
+    GROUP BY CustomerID
+) first_orders
+WHERE YEAR(FirstOrderDate) = 2024;
+
+4.	List top 3 products with the highest total revenue.
+SELECT TOP 3 ProductID, SUM(TotalOrderAmount) AS TotalRevenue
+FROM Orders
+GROUP BY ProductID
+ORDER BY TotalRevenue DESC;
+
+5.	Find the latest order placed for each customer.
+SELECT CustomerID, MAX(OrderDate) AS LatestOrderDate
+FROM Orders
+GROUP BY CustomerID;
+
+6.	List products that have been ordered but are currently out of stock.
+SELECT DISTINCT p.*
+FROM Products p
+JOIN Orders o ON p.ProductID = o.ProductID
+WHERE p.StockQuantity = 0;
+
+7.	List customers who placed orders in more than one product category.
+SELECT o.CustomerID
+FROM Orders o
+JOIN Products p ON o.ProductID = p.ProductID
+GROUP BY o.CustomerID
+HAVING COUNT(DISTINCT p.Category) > 1;
+
+8.	List products with no orders in the last 6 months.
+SELECT *
+FROM Products p
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM Orders o
+    WHERE o.ProductID = p.ProductID
+      AND o.OrderDate >= DATEADD(MONTH, -6, GETDATE())
+);
+
+9.	Find Customers having Same JoinDate.
+SELECT 
+    c1.CustomerID AS Customer1_ID,
+    c1.Name AS Customer1_Name,
+    c2.CustomerID AS Customer2_ID,
+    c2.Name AS Customer2_Name,
+    c1.JoinDate
+FROM 
+    Customers c1
+JOIN 
+    Customers c2 ON c1.JoinDate = c2.JoinDate 
+                 AND c1.CustomerID < c2.CustomerID;
+
+10.	Find the product whose price is second highest.
+SELECT ProductName, Price
+FROM Products
+WHERE Price = (
+    SELECT MAX(Price)
+    FROM Products
+    WHERE Price < (
+        SELECT MAX(Price) FROM Products
+    )
+);
+
+
+

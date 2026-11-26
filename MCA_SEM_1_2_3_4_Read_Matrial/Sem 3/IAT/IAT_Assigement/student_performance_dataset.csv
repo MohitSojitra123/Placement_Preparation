@@ -1,0 +1,121 @@
+StudentID,Name,Gender,Age,Attendance,StudyHours,InternalMarks,ExternalMarks,TotalMarks,Grade,Extracurricular,City,ParentEducation
+1,Aisha Joshi,Female,20,,6.5,28,42,70,B,Yes,Bhavnagar,Diploma
+2,Radha Rana,Female,22,74.2,3.1,10,31,41,D,No,Bhavnagar,Diploma
+3,Raj Patel,Male,19,77.5,3.7,28,63,91,A,No,Rajkot,Post Graduate
+4,Kritika Mehta,Female,18,74.0,3.5,29,47,76,A,No,Vadodara,High School
+5,Krishna Chauhan,Male,18,88.2,1.8,11,25,36,D,Yes,Vadodara,Graduate
+6,Simran Chauhan,Female,21,87.4,4.3,17,33,50,C,Yes,Rajkot,Graduate
+7,Radha Desai,Male,19,3.0,5.9,22,60,82,A,Yes,Bhavnagar,High School
+8,Raj Chauhan,Male,18,85.8,5.6,12,54,66,B,No,Bhavnagar,Graduate
+9,Aisha Shah,Male,18,64.9,6.0,25,42,67,B,No,Bhavnagar,Post Graduate
+10,Radha Trivedi,Female,18,83.3,3.9,12,20,32,D,No,Jamnagar,Post Graduate
+11,Neha Patel,Female,19,80.9,3.5,29,51,80,A,No,Bhavnagar,
+12,Aisha Desai,Male,22,71.9,3.1,11,61,72,B,No,Rajkot,High School
+13,Sai Joshi,Female,21,5.0,3.6,16,52,68,B,Yes,Surat,Graduate
+14,Saanvi Patel,Male,23,53.4,4.6,14,52,66,B,Yes,Vadodara,Diploma
+15,Myra Mehta,Male,18,73.4,3.7,29,31,60,B,Yes,Ahmedabad,Post Graduate
+16,Kritika Patel,Female,20,80.6,,14,51,65,B,No,Surat,Graduate
+17,Vivaan Desai,Male,23,87.7,1.9,20,36,56,C,No,Bhavnagar,Diploma
+18,Kunal Trivedi,Male,18,80.3,1.8,25,48,73,B,No,Vadodara,Post Graduate
+19,Shreya Mehta,Female,20,72.8,3.5,18,52,70,B,Yes,Ahmedabad,Diploma
+20,Aarav Mehta,Male,18,82.1,1.4,19,54,73,B,Yes,Ahmedabad,Diploma
+21,Vivaan Patel,Male,21,,4.3,18,60,78,A,Yes,Surat,Diploma
+22,Nikhil Trivedi,Female,21,82.3,5.5,12,67,79,A,Yes,Surat,High School
+23,Simran Shah,Male,19,51.2,2.6,18,55,73,B,No,Rajkot,Graduate
+24,Karan Rana,Female,20,88.2,7.4,21,41,62,B,Yes,Jamnagar,Graduate
+25,Sneha Trivedi,Male,23,78.6,5.6,10,47,57,C,No,Rajkot,High School
+26,Anika Joshi,Male,18,62.2,3.6,15,54,69,B,No,Bhavnagar,Diploma
+27,Simran Patel,Female,20,70.5,2.9,10,22,32,D,Yes,Rajkot,Graduate
+28,Aman Trivedi,Female,23,82.3,2.5,11,46,57,C,Yes,Ahmedabad,High School
+29,Radha Patel,Male,23,66.2,2.3,12,69,81,A,No,Bhavnagar,Diploma
+30,Reyansh Patel,Female,21,93.3,5.8,25,33,58,C,No,Vadodara,Graduate
+31,Vivaan Rana,Female,23,70.9,3.2,26,61,87,A,No,Jamnagar,Post Graduate
+32,Kritika Patel,Female,21,85.5,1.7,13,25,38,D,Yes,Vadodara,Graduate
+33,Manav Chauhan,Male,22,78.9,3.1,28,47,75,A,No,Ahmedabad,High School
+34,Priya Desai,Male,18,76.3,4.3,10,66,76,A,Yes,Jamnagar,Graduate
+35,Raj Rana,Female,18,100.0,5.9,12,31,43,D,No,Surat,High School
+36,Yash Patel,Male,21,84.4,5.4,21,35,56,C,Yes,Bhavnagar,Post Graduate
+37,Shreya Patel,Male,22,96.3,1.4,14,55,69,B,Yes,Ahmedabad,Graduate
+38,Anika Shah,Male,22,89.7,6.8,25,21,46,C,Yes,Surat,Diploma
+39,Nikhil Joshi,Male,21,82.3,3.5,20,56,76,A,No,Rajkot,High School
+40,Radha Shah,Male,22,,4.4,17,48,65,B,No,Ahmedabad,Graduate
+41,Kunal Mehta,Male,21,69.6,6.4,20,48,68,B,Yes,Rajkot,High School
+42,Shreya Shah,Male,20,79.8,4.2,27,68,95,A,No,Jamnagar,Diploma
+43,Kritika Joshi,,22,71.4,5.4,26,68,94,A,No,Rajkot,Graduate
+44,Saanvi Mehta,Male,21,77.3,2.9,23,50,73,B,No,Surat,Graduate
+45,Isha Desai,Male,21,92.0,1.8,13,42,55,C,No,Bhavnagar,High School
+46,Aisha Trivedi,Male,22,83.2,7.0,20,37,57,C,No,Rajkot,Graduate
+47,Kavya Desai,Female,23,75.7,,27,46,73,B,No,Bhavnagar,High School
+48,Kritika Trivedi,Female,22,91.5,3.1,16,44,60,B,No,Vadodara,Graduate
+49,Aman Mehta,Female,23,69.8,,28,58,86,A,No,Bhavnagar,High School
+50,Pooja Trivedi,Male,21,86.5,5.0,16,20,36,D,No,Vadodara,Graduate
+51,Raj Rana,,22,80.7,,20,56,76,A,Yes,Surat,Diploma
+52,Riya Chauhan,Female,23,71.0,6.7,20,31,51,C,No,Jamnagar,Diploma
+53,Nikhil Joshi,Male,19,78.4,1.6,27,47,74,B,Yes,Rajkot,Diploma
+54,Neha Trivedi,Male,18,89.5,3.0,25,48,73,B,Yes,Surat,High School
+55,Sai Shah,,22,66.8,7.3,27,64,91,A,Yes,Rajkot,Graduate
+56,Aarav Shah,Female,18,93.7,2.8,26,32,58,C,Yes,Rajkot,Post Graduate
+57,Aarav Desai,Male,23,83.4,7.4,14,57,71,B,No,Bhavnagar,High School
+58,Kritika Shah,Female,18,72.6,14.2,10,64,74,B,No,Jamnagar,High School
+59,Radha Rana,Male,19,45.2,3.5,12,69,81,A,No,Jamnagar,Diploma
+60,Arjun Trivedi,Female,18,,8.6,24,56,80,A,No,Ahmedabad,Post Graduate
+61,Aisha Trivedi,Female,19,90.6,0.8,24,46,70,B,Yes,Ahmedabad,Diploma
+62,Sneha Patel,Female,21,82.2,0.6,26,24,50,C,No,Ahmedabad,Diploma
+63,Kavya Shah,Female,21,83.8,3.9,11,32,43,D,Yes,Surat,Diploma
+64,Ananya Mehta,Male,20,83.7,2.3,17,23,40,D,Yes,Surat,Diploma
+65,Aditya Mehta,Female,19,66.3,4.9,14,37,51,C,Yes,Bhavnagar,Graduate
+66,Karan Trivedi,Male,18,87.9,3.5,26,33,59,C,Yes,Surat,High School
+67,Priya Patel,Male,23,88.5,2.9,26,54,80,A,Yes,Jamnagar,Graduate
+68,Priya Joshi,Male,19,88.5,2.2,24,42,66,B,No,Vadodara,High School
+69,Riya Shah,Male,20,71.9,2.4,14,47,61,B,Yes,Rajkot,High School
+70,Aisha Trivedi,Male,21,73.0,1.9,13,29,42,D,No,Bhavnagar,Graduate
+71,Shreya Chauhan,Female,18,59.9,5.9,14,25,39,D,No,Ahmedabad,Post Graduate
+72,Sai Desai,Female,22,73.5,3.1,20,49,69,B,Yes,Rajkot,Post Graduate
+73,Aditya Mehta,Male,22,83.9,3.8,13,34,47,C,No,Rajkot,Graduate
+74,Sneha Mehta,Female,19,100.0,6.9,28,64,92,A,No,Jamnagar,Graduate
+75,Vihaan Mehta,Male,21,75.4,3.4,23,57,80,A,No,Surat,Post Graduate
+76,Shreya Desai,Male,18,72.5,0.2,14,42,56,C,No,Ahmedabad,High School
+77,Radha Shah,Male,22,100.0,15.5,12,49,61,B,Yes,Bhavnagar,Graduate
+78,Aadhya Desai,Female,18,74.9,1.8,10,59,69,B,No,Vadodara,
+79,Simran Rana,Female,22,75.1,3.2,14,24,38,D,Yes,Jamnagar,Graduate
+80,Vihaan Patel,Female,18,75.0,7.4,17,33,50,C,No,Bhavnagar,Graduate
+81,Varun Chauhan,Male,18,,3.6,11,33,44,D,Yes,Surat,Post Graduate
+82,Sai Trivedi,Male,20,71.3,3.3,24,66,90,A,No,Vadodara,Graduate
+83,Aisha Mehta,Female,23,88.3,5.8,10,23,33,D,No,Ahmedabad,High School
+84,Rohan Patel,Male,22,77.3,2.2,17,24,41,D,No,Vadodara,Diploma
+85,Vivaan Mehta,Female,20,97.1,4.9,14,39,53,C,Yes,Ahmedabad,Diploma
+86,Sneha Trivedi,Male,19,81.8,8.8,10,66,76,A,No,Surat,
+87,Shreya Rana,Female,22,72.1,4.8,18,48,66,B,Yes,Rajkot,Graduate
+88,Ananya Chauhan,Male,22,80.6,6.0,17,34,51,C,Yes,Rajkot,High School
+89,Ishaan Shah,Female,22,70.8,4.4,29,44,73,B,No,Jamnagar,Graduate
+90,Reyansh Shah,Male,20,65.0,3.5,21,43,64,B,No,Vadodara,Graduate
+91,Nikhil Patel,Male,20,69.8,4.9,29,60,89,A,Yes,Jamnagar,Graduate
+92,Pooja Chauhan,Female,18,69.4,2.0,28,38,66,B,Yes,Jamnagar,High School
+93,Simran Trivedi,Female,20,93.9,0.2,26,69,95,A,No,Surat,Post Graduate
+94,Vihaan Patel,Male,20,65.9,2.6,23,53,76,A,No,Vadodara,Diploma
+95,Reyansh Desai,Male,18,73.0,2.7,17,66,83,A,No,Surat,High School
+96,Pooja Chauhan,Female,20,88.1,2.3,23,62,85,A,No,Vadodara,High School
+97,Karan Trivedi,Male,19,83.3,1.7,27,21,48,C,No,Bhavnagar,Diploma
+98,Ananya Shah,Female,20,64.4,5.1,14,56,70,B,No,Jamnagar,High School
+99,Kunal Desai,Male,21,81.7,2.2,23,42,65,B,No,Rajkot,Graduate
+100,Kavya Trivedi,Female,19,66.5,5.3,20,65,85,A,No,Ahmedabad,High School
+101,Kunal Chauhan,Female,23,63.7,5.0,26,56,82,A,No,Ahmedabad,Diploma
+102,Dev Desai,Male,22,71.0,2.4,17,53,70,B,No,Rajkot,High School
+103,Reyansh Shah,Female,19,94.0,3.1,23,21,44,D,Yes,Surat,High School
+104,Shreya Mehta,Male,22,77.7,6.2,13,68,81,A,No,Surat,Graduate
+105,Kunal Chauhan,Female,23,79.5,2.0,13,66,79,A,Yes,Surat,Diploma
+106,Kavya Trivedi,Female,20,91.5,2.7,18,28,46,C,Yes,Rajkot,High School
+107,Radha Shah,Male,20,85.0,,21,49,70,B,Yes,Vadodara,Post Graduate
+108,Kritika Joshi,Female,18,66.8,3.6,25,43,68,B,No,Bhavnagar,
+109,Dev Desai,Female,23,93.5,5.9,18,64,82,A,No,Ahmedabad,Diploma
+110,Reyansh Patel,Male,22,60.5,3.5,24,26,50,C,Yes,Ahmedabad,Post Graduate
+111,Dev Desai,Male,23,79.3,2.8,19,58,77,A,Yes,Surat,Diploma
+112,Kunal Mehta,Female,19,77.4,4.2,24,68,92,A,No,Jamnagar,High School
+113,Saanvi Shah,Male,22,66.5,5.1,12,61,73,B,No,Surat,Post Graduate
+114,Saanvi Desai,Male,20,79.8,3.0,25,63,88,A,No,Ahmedabad,Graduate
+115,Raj Chauhan,Male,22,61.4,3.5,27,23,50,C,No,Bhavnagar,High School
+95,Reyansh Desai,Male,18,73.0,2.7,17,66,83,A,No,Surat,High School
+45,Isha Desai,Male,21,92.0,1.8,13,42,55,C,No,Bhavnagar,High School
+57,Aarav Desai,Male,23,83.4,7.4,14,57,71,B,No,Bhavnagar,High School
+84,Rohan Patel,Male,22,77.3,2.2,17,24,41,D,No,Vadodara,Diploma
+70,Aisha Trivedi,Male,21,73.0,1.9,13,29,42,D,No,Bhavnagar,Graduate

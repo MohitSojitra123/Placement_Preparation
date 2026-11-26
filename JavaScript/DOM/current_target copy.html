@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cl1">
+    <button class="qwe" id="one">Button One</button>
+    <button class="qwe" id="two">Button Two</button>
+    <button class="qwe" id="three">Button Three</button>
+</div>
+</body>
+<script>
+   let sel_all=document.querySelectorAll(".cl1 button");
+
+   sel_all.forEach((btn)=>{
+       btn.addEventListener('click',(event)=>{
+          console.log(event.currentTarget);
+       })
+   })
+</script>
+</html>

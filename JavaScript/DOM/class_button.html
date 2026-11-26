@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="abc">
+    <button id="one">One</button>
+    <button id="two">Two</button>
+    <button id="three">Three</button>
+</div>
+</body>
+<script>
+     let value_1=document.querySelectorAll(".abc button");
+     console.log(value_1);
+
+
+    //  for(xyz of value_1){
+    //    xyz.addEventListener('click',function(){
+    //     console.log(this.textContent);
+    //    })
+    //  }
+
+      //Or
+
+    //  for(let i=0; i<value_1.length; i++){
+    //     value_1[i].addEventListener('click',function(){
+    //        console.log(this.textContent);
+    //     })
+    //  }
+
+    //Or
+
+    value_1.forEach(function(xyz){
+           xyz.addEventListener('click',function(){
+               console.log(this.textContent);
+           })
+    });
+</script>
+</html>

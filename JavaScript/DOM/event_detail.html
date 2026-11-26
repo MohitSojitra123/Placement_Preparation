@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="abc">Click Me !</button>
+</body>
+<script>
+   let value_1=document.getElementById("abc");
+
+   value_1.addEventListener('click',function(){
+    console.log('event Is...',event);
+    console.log('event target Is...',event.target);
+    console.log("event type Is..",event.type);
+   });
+</script>
+</html>

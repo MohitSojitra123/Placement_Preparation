@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 2rem;">
+        <h1 id="show">Show....</h1>
+    <button id="incer" style="width: 150px; height: 40px;">+</button>
+    <button id="decer" style="width: 150px; height: 40px;">-</button>
+    </div>
+</body>
+<script>
+    let value_1=document.getElementById("incer");
+    let value_2=document.getElementById("decer");
+    let value_3=document.getElementById("show");
+
+    var value=0;
+     
+    value_1.addEventListener('click',function(){
+        value++;
+        value_3.innerHTML=value;
+    })
+
+    value_2.addEventListener('click',function(){
+        value--;
+        value_3.innerHTML=value;
+    })
+     
+</script>
+</html>

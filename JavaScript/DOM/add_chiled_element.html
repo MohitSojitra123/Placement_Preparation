@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div1">
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </div>
+</body>
+<script>
+    let create=document.createElement('li')
+     
+    // Add Content Of This Element
+
+    create.innerText="New Element"
+     
+   let ul_list=document.querySelector('.div1 ul')
+
+    ul_list.appendChild(create)
+
+</script>
+</html>

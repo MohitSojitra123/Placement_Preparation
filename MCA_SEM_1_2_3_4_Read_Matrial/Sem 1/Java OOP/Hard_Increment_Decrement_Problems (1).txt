@@ -1,0 +1,599 @@
+// Problem 1
+int b = 3;
+int result = ++b / ++b / b-- + --b * b;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 2
+int c = 1;
+int result = --c % c + ++c % --c - --c;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 3
+int y = 2;
+int result = y-- * y++ * --y / y % 9 / ++y / y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 4
+int y = 1;
+int result = y / y-- * y * y++ * y + --y - y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 5
+int x = 4;
+int result = ++x + --x * x-- % ++x / x-- + x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 6
+int j = 2;
+int result = j / 2 - --j * --j % 9 % j++;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 7
+int b = 4;
+int result = b + ++b % ++b * 5 - --b * b++;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 8
+int k = 1;
+int result = k-- / k++ / ++k % k-- + 3;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 9
+int i = 1;
+int result = --i * ++i * ++i + --i / --i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 10
+int j = 5;
+int result = ++j % j++ + j-- + 4 / j--;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 11
+int i = 1;
+int result = i-- % i / i++ * --i % --i + i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 12
+int c = 3;
+int result = ++c - 6 - --c + c-- % c++ % --c - 7;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 13
+int a = 5;
+int result = a-- / a++ - a++ + --a - ++a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 14
+int i = 3;
+int result = --i - i - --i % i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 15
+int i = 5;
+int result = ++i + 2 / --i - i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 16
+int x = 1;
+int result = ++x % 1 / 7 + x-- % x--;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 17
+int x = 1;
+int result = x++ * ++x % --x + 7 * 4 + 2;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 18
+int b = 4;
+int result = --b * --b % b-- * ++b + ++b % b++;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 19
+int x = 1;
+int result = ++x % ++x / x++ + x--;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 20
+int z = 1;
+int result = ++z - z++ + z++ / z * z / 8 + z;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 21
+int b = 2;
+int result = --b + b++ / b++ / ++b / 8 + 5 + b;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 22
+int i = 5;
+int result = i-- / i * i++ - ++i * ++i + i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 23
+int a = 5;
+int result = a++ % ++a * 3 - ++a / a-- + --a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 24
+int c = 3;
+int result = ++c / c++ - ++c % c-- % --c;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 25
+int i = 3;
+int result = --i - 3 % --i + --i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 26
+int j = 5;
+int result = j + 7 * j-- % j-- * --j;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 27
+int x = 4;
+int result = ++x / --x + x++ - x++;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 28
+int b = 3;
+int result = --b + ++b % b++ % b + ++b + 6;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 29
+int j = 1;
+int result = j++ / --j - j + 9 * j % j--;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 30
+int a = 3;
+int result = a-- % a / a - 7 / 9 + a++;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 31
+int x = 5;
+int result = x * ++x - x * ++x / x++;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 32
+int i = 2;
+int result = i-- - i-- % i++ / i-- + i % i++ + i++;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 33
+int i = 3;
+int result = i++ * i-- / i-- % --i * ++i / --i / i++;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 34
+int k = 3;
+int result = --k - 6 % ++k * k--;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 35
+int k = 4;
+int result = k-- + k - 6 - 7 * k - k;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 36
+int k = 5;
+int result = ++k * k++ - 6 + 3 * k--;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 37
+int j = 2;
+int result = --j * j-- - j++ + ++j;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 38
+int x = 4;
+int result = --x + ++x / x-- % --x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 39
+int y = 1;
+int result = y-- + --y / y++ / 2 - ++y + y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 40
+int z = 5;
+int result = ++z * z-- - z++ % z++ * z++;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 41
+int b = 2;
+int result = b-- * --b + b / b;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 42
+int i = 3;
+int result = --i - ++i + i++ * ++i * i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 43
+int x = 2;
+int result = x-- * x * x-- + 9 / ++x / x / x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 44
+int i = 2;
+int result = ++i % --i * i % 1 + --i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 45
+int j = 4;
+int result = --j / j * j++ / 9 - --j;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 46
+int j = 3;
+int result = j++ - j-- / j * j * j-- + ++j / 5;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 47
+int a = 2;
+int result = ++a + a++ - a * a++;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 48
+int b = 4;
+int result = --b / b - 9 * b;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 49
+int b = 4;
+int result = b + b / b * b-- % b--;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 50
+int b = 2;
+int result = b % b++ / 10 % 3 % 6;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);
+
+// Problem 51
+int a = 3;
+int result = a-- - a / --a - 10 % a++;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 52
+int x = 1;
+int result = x-- / x++ * 2 + ++x + x-- / x-- % --x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 53
+int z = 3;
+int result = z++ / ++z % z-- / z;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 54
+int z = 5;
+int result = --z / z++ - 2 % ++z;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 55
+int a = 2;
+int result = a-- * a % ++a - ++a % a * --a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 56
+int y = 5;
+int result = y++ + ++y % 9 / 9 * ++y % y--;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 57
+int x = 1;
+int result = x / ++x * x-- * x % ++x + --x * x++;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 58
+int c = 5;
+int result = c++ - c * ++c + --c / 10;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 59
+int i = 5;
+int result = i * ++i - i++ / i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 60
+int i = 3;
+int result = ++i * i++ + i++ - i - i++ + 7 + ++i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 61
+int y = 3;
+int result = y-- % --y / y++ / 10 - y-- / --y;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 62
+int y = 2;
+int result = y++ / ++y - 8 / --y % y;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 63
+int a = 1;
+int result = --a * a++ + --a % 9 - a % a++ / a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 64
+int y = 4;
+int result = y-- / ++y - ++y - ++y * y-- - y--;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 65
+int k = 2;
+int result = k++ - k + 2 - 6;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 66
+int k = 2;
+int result = k-- * 7 % --k * ++k + k;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 67
+int x = 4;
+int result = --x / x-- + x * --x % x-- / ++x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 68
+int i = 4;
+int result = --i * i++ % --i * --i * ++i - i++ - ++i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 69
+int i = 3;
+int result = i++ / i-- + i % 9 % i * 1 % i++;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 70
+int z = 2;
+int result = z-- - 7 % --z % 10 - z++ * 10 % 7;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 71
+int c = 4;
+int result = c++ + c / c-- % c-- * c + ++c;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 72
+int y = 2;
+int result = ++y + y-- % y++ % --y + 4 + y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 73
+int c = 2;
+int result = c-- + c++ / c++ + 10;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 74
+int j = 4;
+int result = j++ + ++j / j / 7;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 75
+int j = 3;
+int result = j++ + ++j - j + --j - j;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 76
+int i = 1;
+int result = i-- + 5 * 4 + 1;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 77
+int i = 5;
+int result = ++i - --i - ++i + --i - i / --i;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 78
+int y = 2;
+int result = --y + 10 - y-- * y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 79
+int a = 3;
+int result = a++ - ++a / a / 3 / --a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 80
+int y = 5;
+int result = ++y / y++ % --y + y-- * y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 81
+int a = 2;
+int result = ++a % --a % a / ++a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 82
+int k = 5;
+int result = ++k % k++ * k++ - k / 5 * k++ + k;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 83
+int a = 3;
+int result = --a - a % ++a / a;
+System.out.println("Result: " + result);
+System.out.println("a: " + a);
+
+// Problem 84
+int z = 3;
+int result = --z - 8 - z-- - z-- / --z + ++z % z++;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 85
+int c = 4;
+int result = c-- * --c % 10 + c-- * c++;
+System.out.println("Result: " + result);
+System.out.println("c: " + c);
+
+// Problem 86
+int i = 2;
+int result = ++i * ++i / i++ / i-- * i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 87
+int j = 3;
+int result = --j + --j * j++ - j - --j - --j + j;
+System.out.println("Result: " + result);
+System.out.println("j: " + j);
+
+// Problem 88
+int k = 3;
+int result = k * k-- / k++ / k++;
+System.out.println("Result: " + result);
+System.out.println("k: " + k);
+
+// Problem 89
+int y = 5;
+int result = ++y + 2 * --y / y++ / ++y;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 90
+int i = 4;
+int result = ++i / ++i + 8 + 2 / i % 6 - i++;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 91
+int y = 3;
+int result = ++y % 6 - y-- / y-- - y++ * y--;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 92
+int x = 4;
+int result = --x + x-- - x - x-- % --x % --x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 93
+int z = 2;
+int result = z * z-- * 10 / 1 - z - --z;
+System.out.println("Result: " + result);
+System.out.println("z: " + z);
+
+// Problem 94
+int x = 1;
+int result = x++ * x++ % --x % --x / x++ - x--;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 95
+int i = 4;
+int result = i - i-- * i-- / i++ * --i / i * i--;
+System.out.println("Result: " + result);
+System.out.println("i: " + i);
+
+// Problem 96
+int y = 5;
+int result = --y % y-- - --y + y--;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 97
+int y = 1;
+int result = y-- + ++y - y++ / ++y + y - y++;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 98
+int y = 5;
+int result = y++ - 8 * y++ / y++ % y % y--;
+System.out.println("Result: " + result);
+System.out.println("y: " + y);
+
+// Problem 99
+int x = 4;
+int result = x++ / 8 * 1 % x % --x * x;
+System.out.println("Result: " + result);
+System.out.println("x: " + x);
+
+// Problem 100
+int b = 1;
+int result = b / b-- + ++b + b-- - b-- - b++ * b;
+System.out.println("Result: " + result);
+System.out.println("b: " + b);

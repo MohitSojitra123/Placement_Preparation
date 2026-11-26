@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="first">
+</body>
+<script>
+    let value_1=document.getElementById("first");
+    
+    value_1.addEventListener("input", function(){
+        console.log(this.value);
+    })
+
+   value_1.addEventListener("focus",function(){
+    value_1.style.backgroundColor="red";
+   })
+
+   value_1.addEventListener("blur",function(){
+    value_1.style.backgroundColor="white";
+   })
+
+</script>
+</html>

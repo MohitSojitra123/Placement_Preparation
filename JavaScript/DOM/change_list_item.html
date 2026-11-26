@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <ol>
+        <li>Java Script</li>
+        <li>C++</li>
+        <li>CSS</li>
+    </ol>  
+</body>
+<script>
+
+    //edit...
+
+    const li_1=document.querySelector("li:first-child");  //only access frist and last
+    console.log(li_1);
+    li_1.outerHTML="<li>Js</li>";
+    // li_1.innerHTML="React";
+    // li_1.textContent="Node";
+
+    //remove...
+
+    const li_last=document.querySelector("li:last-child");
+    console.log(li_last);
+    li_last.remove();
+</script>
+</html>

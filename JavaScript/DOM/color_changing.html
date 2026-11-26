@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Hello Event Handing...</h1>
+    </div>
+</body>
+<script>
+
+let main=document.getElementById('main')
+
+function my_fun1(){
+    main.style.color="red"
+    main.style.fontFamily="cursive"
+}
+
+function my_fun2(){
+    main.style.color="black"
+    main.style.fontFamily="sans"
+}
+
+setInterval(my_fun1,500)
+setInterval(my_fun2,800)
+
+</script>
+</html>

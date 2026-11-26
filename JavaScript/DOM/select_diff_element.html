@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="detail">Mohit Sojitra</h1>
+    <h1 class="detail">HR</h1>
+
+    <h1 class="contact">+94084125410</h1>
+    <h1 class="contact">Rajkot...</h1>
+
+    <h2 id="de"></h2>
+    <h2 id="co"></h2>
+</body>
+<script>
+
+//-----------------------------
+
+   let a=5;
+   let b='10';
+   
+   let z=a + 5 / 5;
+   document.write(z);
+   document.write("....");
+
+
+   document.write(a+b);
+   document.write("....");
+   document.write(a+b+1);
+   document.write("....");
+   document.write(1+a+b);
+
+ //-----------------------------
+   
+ let value_1=document.getElementsByClassName("detail");
+ let value_2=document.getElementsByClassName("contact");
+
+ document.getElementById("de").innerHTML = "Name Of Employe..." + value_1[0].innerHTML +"<br>Place..." +value_1[1].innerHTML; 
+ document.getElementById("co").innerHTML = "Contact..."+value_2[0].innerHTML +"<br>City..."+value_2[1].innerHTML;
+
+</script>
+</html>
